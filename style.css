@@ -50,7 +50,7 @@ article {
 }
 
 .dev_testimg {
-    width: 100%;
-    transform: translateY(100px);
+    width: 50%;
+    transform: translateY(70%);
     object-fit: cover;
 }
