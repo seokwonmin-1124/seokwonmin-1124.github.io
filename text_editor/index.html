@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <script src="script.js"></script>
+    <title>LESH | leditor-lesh text editor</title>
+</head>
+<body>
+    <div class="container">
+            <div class="card" style="width: 80vh; left: 50%; top: 50%; transform: translate(-50%, 50%);">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    Component
+                  </p>
+                  <button class="card-header-icon" aria-label="more options">
+                    <span class="icon">
+                      <i class="fas fa-angle-down" aria-hidden="true"></i>
+                    </span>
+                  </button>
+                </header>
+                <center>
+                    <button type="button" class="button" onclick="document.execCommand('Italic')"><i>Aa</i></button>
+                    <button type="button" class="button" onclick="document.execCommand('Underline')"><u>Aa</u></button>
+                    <button type="button" class="button" onclick="document.execCommand('StrikeThrough')"><strike>Aa</strike></button>
+                    <button type="button" class="button" onclick="document.execCommand('Undo')">Undo</button>
+                    <button type="button" class="button" onclick="document.execCommand('Redo')">Redo</button>
+                    <button type="button" class="button" onclick="document.execCommand('justifyright')">||Aa</button>
+                    <button type="button" class="button" onclick="document.execCommand('justifycenter')">|Aa|</button>
+                    <button type="button" class="button" onclick="document.execCommand('justifyleft')">Aa||</button>
+                    <div class="field has-addons">
+                        <p class="control">
+                          <button class="button">
+                            <span class="icon is-small">
+                              <i class="fas fa-bold"></i>
+                            </span>
+                            <span>Bold</span>
+                          </button>
+                        </p>
+                        <p class="control">
+                          <button class="button">
+                            <span class="icon is-small">
+                              <i class="fas fa-italic"></i>
+                            </span>
+                            <span>Italic</span>
+                          </button>
+                        </p>
+                        <p class="control">
+                          <button class="button">
+                            <span class="icon is-small">
+                              <i class="fas fa-underline"></i>
+                            </span>
+                            <span>Underline</span>
+                          </button>
+                        </p>
+                      </div>
+                      
+                      <div class="field has-addons">
+                        <p class="control">
+                          <button class="button">
+                            <span class="icon is-small">
+                              <i class="fas fa-align-left"></i>
+                            </span>
+                            <span>Left</span>
+                          </button>
+                        </p>
+                        <p class="control">
+                          <button class="button">
+                            <span class="icon is-small">
+                              <i class="fas fa-align-center"></i>
+                            </span>
+                            <span>Center</span>
+                          </button>
+                        </p>
+                        <p class="control">
+                          <button class="button">
+                            <span class="icon is-small">
+                              <i class="fas fa-align-right"></i>
+                            </span>
+                            <span>Right</span>
+                          </button>
+                        </p>
+                      </div>
+                </center>
+                <div class="card-content">
+                  <div class="content">
+                    <textarea class="textarea" placeholder="10 lines of textarea" rows="10"></textarea>
+                  </div>
+                </div>
+                <footer class="card-footer">
+                  <a href="#" class="button">Save</a>
+                  <a href="#" class="button">Edit</a>
+                  <a href="#" class="button">Delete</a>
+                </footer>
+              </div>
+    </div>
+</body>
+</html>
