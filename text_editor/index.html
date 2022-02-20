@@ -14,24 +14,19 @@
             <div class="card" style="width: 80vh; left: 50%; top: 50%; transform: translate(-50%, 50%);">
                 <header class="card-header">
                   <p class="card-header-title">
-                    Component
+                    leditor-lesh text editor
                   </p>
                   <button class="card-header-icon" aria-label="more options">
                     <span class="icon">
-                      <i class="fas fa-angle-down" aria-hidden="true"></i>
+                        <a href="https://github.com/seokwonmin-1124/seokwonmin-1124.github.io/blob/master/text_editor/index.html" style="color: #000000;" title="Github">
+                            <i class="fa-solid fa-code"></i>
+                        </a>
                     </span>
                   </button>
                 </header>
-                <center>
-                    <button type="button" class="button" onclick="document.execCommand('Italic')"><i>Aa</i></button>
-                    <button type="button" class="button" onclick="document.execCommand('Underline')"><u>Aa</u></button>
-                    <button type="button" class="button" onclick="document.execCommand('StrikeThrough')"><strike>Aa</strike></button>
-                    <button type="button" class="button" onclick="document.execCommand('Undo')">Undo</button>
-                    <button type="button" class="button" onclick="document.execCommand('Redo')">Redo</button>
-                    <button type="button" class="button" onclick="document.execCommand('justifyright')">||Aa</button>
-                    <button type="button" class="button" onclick="document.execCommand('justifycenter')">|Aa|</button>
-                    <button type="button" class="button" onclick="document.execCommand('justifyleft')">Aa||</button>
-                    <div class="field has-addons">
+                <div class="card-content">
+                  <div class="content">
+                    <div class="field has-addons" style="justify-content: center;">
                         <p class="control">
                           <button class="button">
                             <span class="icon is-small">
@@ -56,45 +51,39 @@
                             <span>Underline</span>
                           </button>
                         </p>
+                        <p class="control">
+                            <button class="button">
+                              <span class="icon is-small">
+                                <i class="fas fa-align-left"></i>
+                              </span>
+                              <span>Left</span>
+                            </button>
+                          </p>
+                          <p class="control">
+                            <button class="button">
+                              <span class="icon is-small">
+                                <i class="fas fa-align-center"></i>
+                              </span>
+                              <span>Center</span>
+                            </button>
+                          </p>
+                          <p class="control">
+                            <button class="button">
+                              <span class="icon is-small">
+                                <i class="fas fa-align-right"></i>
+                              </span>
+                              <span>Right</span>
+                            </button>
+                          </p>
                       </div>
-                      
-                      <div class="field has-addons">
-                        <p class="control">
-                          <button class="button">
-                            <span class="icon is-small">
-                              <i class="fas fa-align-left"></i>
-                            </span>
-                            <span>Left</span>
-                          </button>
-                        </p>
-                        <p class="control">
-                          <button class="button">
-                            <span class="icon is-small">
-                              <i class="fas fa-align-center"></i>
-                            </span>
-                            <span>Center</span>
-                          </button>
-                        </p>
-                        <p class="control">
-                          <button class="button">
-                            <span class="icon is-small">
-                              <i class="fas fa-align-right"></i>
-                            </span>
-                            <span>Right</span>
-                          </button>
-                        </p>
-                      </div>
-                </center>
-                <div class="card-content">
-                  <div class="content">
-                    <textarea class="textarea" placeholder="10 lines of textarea" rows="10"></textarea>
+                    <textarea class="textarea" placeholder="type anything..." rows="10"></textarea><br>
+                    <div class="publish" style="display: flex; justify-content: end">
+                        <a href="#" class="button">Save</a>
+                        <a href="#" class="button" style="margin-right: 5px; margin-left: 5px;">Edit</a>
+                        <a href="#" class="button">Delete</a>
+                    </div>
                   </div>
                 </div>
-                <footer class="card-footer">
-                  <a href="#" class="button">Save</a>
-                  <a href="#" class="button">Edit</a>
-                  <a href="#" class="button">Delete</a>
-                </footer>
               </div>
     </div>
 </body>
