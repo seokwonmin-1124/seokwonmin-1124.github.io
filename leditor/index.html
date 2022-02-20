@@ -28,7 +28,7 @@
                   <div class="content">
                     <div class="field has-addons" style="justify-content: center;">
                         <p class="control">
-                          <button class="button">
+                          <button class="button" onclick="document.execCommand('bold')">
                             <span class="icon is-small">
                               <i class="fas fa-bold"></i>
                             </span>
@@ -36,7 +36,7 @@
                           </button>
                         </p>
                         <p class="control">
-                          <button class="button">
+                          <button class="button" onclick="document.execCommand('Italic')">
                             <span class="icon is-small">
                               <i class="fas fa-italic"></i>
                             </span>
@@ -44,15 +44,15 @@
                           </button>
                         </p>
                         <p class="control">
-                          <button class="button">
+                          <button class="button" onclick="document.execCommand('StrikeThrough')">
                             <span class="icon is-small">
-                              <i class="fas fa-underline"></i>
+                              <i class="fa-solid fa-strikethrough"></i>
                             </span>
-                            <span>Underline</span>
+                            <span>middle line</span>
                           </button>
                         </p>
                         <p class="control">
-                            <button class="button">
+                            <button class="button" onclick="document.execCommand('justifyleft')">
                               <span class="icon is-small">
                                 <i class="fas fa-align-left"></i>
                               </span>
@@ -60,7 +60,7 @@
                             </button>
                           </p>
                           <p class="control">
-                            <button class="button">
+                            <button class="button" onclick="document.execCommand('justifycenter')">
                               <span class="icon is-small">
                                 <i class="fas fa-align-center"></i>
                               </span>
@@ -68,7 +68,7 @@
                             </button>
                           </p>
                           <p class="control">
-                            <button class="button">
+                            <button class="button" onclick="document.execCommand('justifyright')">
                               <span class="icon is-small">
                                 <i class="fas fa-align-right"></i>
                               </span>
@@ -76,7 +76,7 @@
                             </button>
                           </p>
                       </div>
-                    <textarea class="textarea" placeholder="type anything..." rows="10"></textarea><br>
+                    <div contenteditable="true" class="textarea" placeholder="type anything..." style="width: 500px;"></div><br>
                     <div class="publish" style="display: flex; justify-content: end">
                         <a href="#" class="button">Save</a>
                         <a href="#" class="button" style="margin-right: 5px; margin-left: 5px;">Edit</a>
