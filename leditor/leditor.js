@@ -1,15 +1,15 @@
 $(document).ready(function () {
-    $('.htmlView').hide();
+    $('#htmlView').hide();
 });
  
 function convertToHTML() {
-    $('.htmlView').text($('.text').html());
-    $('.htmlView').show();
-    $('.text').hide();
+    $('#htmlView').text($('#textView').html());
+    $('#htmlView').show();
+    $('#textView').hide();
 }
  
 function convertToText() {
-    $('.text').html($('.htmlView').text());
-    $('.text').show();
-    $('.htmlView').hide();
+    $('#textView').html($('#htmlView').text());
+    $('#textView').show();
+    $('#htmlView').hide();
 }
