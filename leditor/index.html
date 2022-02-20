@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="../src/logo/logo_L.png" type="image/icon">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="leditor.js"></script>
     <title>LESH | leditor-lesh text editor</title>
+
 </head>
 <body>
     <div class="container">
-            <div class="card" style="width: 80vh; left: 50%; top: 50%; transform: translate(-50%, 50%);">
+            <div class="card" style="width: 80vh; left: 50%; top: 24%; transform: translate(-50%, 24%);">
                 <header class="card-header">
                   <p class="card-header-title">
                     leditor-lesh text editor
@@ -76,11 +79,11 @@
                             </button>
                           </p>
                       </div>
-                    <div contenteditable="true" class="textarea" placeholder="type anything..." style="width: 500px;"></div><br>
-                    <div class="publish" style="display: flex; justify-content: end">
-                        <a href="#" class="button">Save</a>
-                        <a href="#" class="button" style="margin-right: 5px; margin-left: 5px;">Edit</a>
-                        <a href="#" class="button">Delete</a>
+                    <div contenteditable="true" style="height: 400px;" class="textarea"></div><br>
+                    <div class="htmlView"></div>
+                    <div class="publish" style="display: flex; justify-content: end;">
+                        <a href="#" class="button" onclick="convertToHTML()" style="margin-right:5px;">html</a>
+                        <a href="#" class="button" onclick="convertToText()">text</a>
                     </div>
                   </div>
                 </div>
