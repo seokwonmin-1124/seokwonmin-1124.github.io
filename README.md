@@ -1,39 +1,39 @@
 # seokwonmin-1124.github.io
 웹 프로젝트를 한곳에 모아 놓은 사이트 입니다.
 .
-├── README.md<br>
-├── index.html<br>
-├── project<br>
-│   ├── leditor<br>
-│   │   ├── index.html<br>
-│   │   └── leditor.js<br>
-│   ├── project_list<br>
-│   │   └── index.html<br>
-│   ├── src<br>
-│   │   ├── index<br>
-│   │   │   ├── fonts<br>
-│   │   │   │   ├── BIFUR___.TTF<br>
-│   │   │   │   └── BIFUR___.woff<br>
-│   │   │   └── img<br>
-│   │   │       ├── png<br>
-│   │   │       │   └── develping.png<br>
-│   │   │       └── svg<br>
-│   │   │           └── chevron-compact-down.svg<br>
-│   │   ├── logo<br>
-│   │   │   └── logo_L.png<br>
-│   │   ├── project_list<br>
-│   │   │   ├── ledi.png<br>
-│   │   │   └── todo.png<br>
-│   │   └── todolist<br>
-│   │       ├── fonts<br>
-│   │       └── img<br>
-│   ├── todolist<br>
-│   │   ├── index.html<br>
-│   │   ├── test.css<br>
-│   │   └── test.js<br>
-│   └── wasmain<br>
-│       ├── index.html<br>
-│       ├── script.js<br>
-│       └── style.css<br>
-└── style.css<br>
+├──&nbsp;README.md<br>
+├──&nbsp;index.html<br>
+├──&nbsp;project<br>
+│&nbsp;&nbsp;&nbsp;├──&nbsp;leditor<br>
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├──&nbsp;index.html<br>
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└──&nbsp;leditor.js<br>
+│&nbsp;&nbsp;&nbsp;├──&nbsp;project_list<br>
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└──&nbsp;index.html<br>
+│&nbsp;&nbsp;&nbsp;├──&nbsp;src<br>
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├──&nbsp;index<br>
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├──&nbsp;fonts<br>
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├──&nbsp;BIFUR___.TTF<br>
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└──&nbsp;BIFUR___.woff<br>
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└──&nbsp;img<br>
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├──&nbsp;png<br>
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└──&nbsp;develping.png<br>
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└──&nbsp;svg<br>
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└──&nbsp;chevron-compact-down.svg<br>
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├──&nbsp;logo<br>
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└──&nbsp;logo_L.png<br>
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├──&nbsp;project_list<br>
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├──&nbsp;ledi.png<br>
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└──&nbsp;todo.png<br>
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└──&nbsp;todolist<br>
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├──&nbsp;fonts<br>
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└──&nbsp;img<br>
+│&nbsp;&nbsp;&nbsp;├──&nbsp;todolist<br>
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├──&nbsp;index.html<br>
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├──&nbsp;test.css<br>
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└──&nbsp;test.js<br>
+│&nbsp;&nbsp;&nbsp;└──&nbsp;wasmain<br>
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├──&nbsp;index.html<br>
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├──&nbsp;script.js<br>
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└──&nbsp;style.css<br>
+└──&nbsp;style.css<br>
 
