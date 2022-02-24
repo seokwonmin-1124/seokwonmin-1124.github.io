@@ -1,0 +1,13 @@
+#!/bin/bash
+
+rm -rf _build
+./scripts/make.js
+cp favicon.png _build/
+cp CNAME _build/
+cp -r fonts _build/
+cp -r assets _build/
+
+if [[ $* == *--serve* ]]; then
+  cd _build
+  serve
+fi
