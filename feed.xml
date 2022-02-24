@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>https://frantic.im/</id>
-  <title>frantic.im</title>
-  <link rel="self" href="https://frantic.im/feed.xml" />
-  <icon>https://frantic.im/favicon.png</icon>
+  <id>https://lesh.monster/</id>
+  <title>lesh.monster</title>
+  <link rel="self" href="https://lesh.monster/feed.xml" />
+  <icon>https://lesh.monster/favicon.png</icon>
   <subtitle>Occasional posts on technology and stuff</subtitle>
-  <updated>2022-02-24T05:13:37.372Z</updated>
+  <updated>2022-02-24T05:16:01.506Z</updated>
   <author>
-    <name>Alex Kotliarskyi</name>
+    <name>lesh</name>
   </author>
 
   
     <entry>
-      <id>https://frantic.im/leaving-facebook</id>
+      <id>https://lesh.monster/leaving-facebook</id>
       <title>On Leaving Facebook</title>
       <updated>2022-01-21T12:00:00+00:00</updated>
 
-      <link rel="alternate" href="https://frantic.im/leaving-facebook" />
+      <link rel="alternate" href="https://lesh.monster/leaving-facebook" />
       <summary>After 8.5 years at Facebook I joined a small startup called Replit. Leaving wasn't easy, and during the process I've talked to half a dozen friends who were in the similar situation.</summary>
       <content type="html"><![CDATA[
         
@@ -114,11 +114,11 @@
     </entry>
   
     <entry>
-      <id>https://frantic.im/react-api-evolution</id>
+      <id>https://lesh.monster/react-api-evolution</id>
       <title>React API evolution</title>
       <updated>2021-03-11T12:00:00+00:00</updated>
 
-      <link rel="alternate" href="https://frantic.im/react-api-evolution" />
+      <link rel="alternate" href="https://lesh.monster/react-api-evolution" />
       <summary>From React.createClass to hooks: why React is at odds with JavaScript</summary>
       <content type="html"><![CDATA[
         
@@ -310,7 +310,7 @@
 <li>This indirection breaks <code>refs</code> and makes writing pure components harder, unless implemented carefully.</li>
 <li>Devtools show very deep wrapped component hierarchies that hurt readability:</li>
 </ol>
-<p><img src="https://frantic.im/assets/react-api-evolution/deep-hocs.png" alt="" /></p>
+<p><img src="https://lesh.monster/assets/react-api-evolution/deep-hocs.png" alt="" /></p>
 <h3>Render props</h3>
 <p>React community kept looking for better ways to reuse logic in components and for some time a pattern called “render props” gained a bunch of popularity. I’m not going to dive into these dark ages, but the idea was similar to HoC.</p>
 <h2>2019, <a href="https://reactjs.org/blog/2019/02/06/react-v16.8.0.html">React v16.8</a>: Hooks</h2>
@@ -385,11 +385,11 @@
     </entry>
   
     <entry>
-      <id>https://frantic.im/octave</id>
+      <id>https://lesh.monster/octave</id>
       <title>A side project story: octave.im (2013-2016)</title>
       <updated>2021-02-23T12:00:00+00:00</updated>
 
-      <link rel="alternate" href="https://frantic.im/octave" />
+      <link rel="alternate" href="https://lesh.monster/octave" />
       <summary>A story about my attempt at SaaS</summary>
       <content type="html"><![CDATA[
         
@@ -403,7 +403,7 @@
 <p>In October that year I rewrote the frontend in React — the experience of doing so was amazing! React was young (<code>createClass</code>/<code>autobind</code>/<code>mixins</code>) but its programming model “clicked” with me. I remember hanging out in their IRC channel looking for help with autoscrolling. I was really impressed at how quick and friendly the response was (thanks <a href="https://twitter.com/sophiebits">@sophiebits</a>!).</p>
 <p>The initial version of the backend would just run <code>octave</code> in a dedicated folder. My second iteration ued Docker, which at the time was very new and unproven. It all ran on a Digital Ocean 2GB RAM droplet.</p>
 <p>The killer feature was displaying plots inline in a REPL. You can see it on this gif:</p>
-<p><img src="https://frantic.im/assets/octave.im/octave-demo.gif" alt="" /></p>
+<p><img src="https://lesh.monster/assets/octave.im/octave-demo.gif" alt="" /></p>
 <p>It worked through a clever hack: I pre-configured Octave to use gnuplot with special arguments that made it save the graph to a file (instead of showing it on the screen). My NodeJS backend listened to filesystem changes and notified the frontend when it detected the update.</p>
 <h1>Product market fit</h1>
 <p>I tried to promote octave.im for the students of the ML course. I posted the link on forums couple of times and added it to the course wiki page (that was surprisingly very hidden). The reception among students has been really positive, but the course moderators weren’t happy: they wanted some kind of validation that it’s a serious thing (which it wasn’t).</p>
@@ -421,17 +421,17 @@
 <li>$720 spent on hosting</li>
 </ul>
 <p>Screenshot, for posterity:</p>
-<p><img src="https://frantic.im/assets/octave.im/screenshot.png" alt="" /></p>
+<p><img src="https://lesh.monster/assets/octave.im/screenshot.png" alt="" /></p>
 
       ]]></content>
     </entry>
   
     <entry>
-      <id>https://frantic.im/back-to-rails</id>
+      <id>https://lesh.monster/back-to-rails</id>
       <title>Moving my serverless project to Ruby on Rails</title>
       <updated>2020-11-14T12:00:00+00:00</updated>
 
-      <link rel="alternate" href="https://frantic.im/back-to-rails" />
+      <link rel="alternate" href="https://lesh.monster/back-to-rails" />
       <summary>Serverless is like a black hole. It promised exciting adventures, but the gravity sucked me in and I spend most of my efforts dealing with its complexity, instead of focusing on my product.</summary>
       <content type="html"><![CDATA[
         
@@ -440,7 +440,7 @@
         <p>I have a small side project: <a href="https://hacker.gifts">digital gift cards for hackers</a>. It uses Shopify for all the store-related stuff: frontend, payments, refunds, reports, etc.</p>
 <p>But unlike regular digital products (ebooks, videos) I wanted each card that the user purchases from the store to be unique. So I made a  script that generates personalized images and ran it manually for every order.</p>
 <p>The next logical step was automating this process. I started with serverless AWS Lambda. At the time it was the hot new tech and I wanted to learn more. It seemed very fitting for my use-case: single-responsibility functions that can run at any time and don’t require server maintenance.</p>
-<p><img src="https://frantic.im/assets/back-to-rails/simple-lambda.png" alt="" /></p>
+<p><img src="https://lesh.monster/assets/back-to-rails/simple-lambda.png" alt="" /></p>
 <p>It was super easy to get started. I built a JavaScript function and deployed it to AWS Lambda, added Shopify web hook and it all worked!</p>
 <p>Early benefits of serverless (for hobby projects):</p>
 <ul>
@@ -471,7 +471,7 @@
 <p>—</p>
 <p>I was clearly not enjoying the serverless. So I decided to rewrite it. After all, it is a side project I’m doing for fun. The tech stack of choice — Ruby on Rails.</p>
 <p>I haven’t used Rails since 2013, and for the last 8 years at Facebook I’ve been mostly doing JavaScript.</p>
-<p><img src="https://frantic.im/assets/back-to-rails/logo.jpg" alt="" /></p>
+<p><img src="https://lesh.monster/assets/back-to-rails/logo.jpg" alt="" /></p>
 <p>The experience of picking Rails back up was really nice but… uneventful. Not much had really changed. A few things got added, a few small things moved around.</p>
 <p>Of course I did <a href="https://github.com/rails/rails/issues/38060">hit some magical Ruby issues</a>. But unlike my typical experience with JavaScript, I was quickly able to find the solution.</p>
 <p>Rails comes with so many things built-in and configured. Over the years, without Rails, I used to gluing random JavaScript libraries together to roll my own routing, file storage wrappers, email preview pipeline, managing secrets, test setup with fixtures, database migrations, logging, performance reporting, deployment scripts. With Rails I didn’t have to think about all these details and could simply focus on making product-visible changes.</p>
@@ -497,11 +497,11 @@
     </entry>
   
     <entry>
-      <id>https://frantic.im/todo-for-robots</id>
+      <id>https://lesh.monster/todo-for-robots</id>
       <title>TODO apps are meant for robots</title>
       <updated>2020-10-28T12:00:00+00:00</updated>
 
-      <link rel="alternate" href="https://frantic.im/todo-for-robots" />
+      <link rel="alternate" href="https://lesh.monster/todo-for-robots" />
       <summary>What if I'm a left-handed person in the world of right-handed tools?</summary>
       <content type="html"><![CDATA[
         
@@ -545,11 +545,11 @@
     </entry>
   
     <entry>
-      <id>https://frantic.im/remote-meetings</id>
+      <id>https://lesh.monster/remote-meetings</id>
       <title>Optimize Your Meetings for Engagement</title>
       <updated>2020-09-24T12:00:00+00:00</updated>
 
-      <link rel="alternate" href="https://frantic.im/remote-meetings" />
+      <link rel="alternate" href="https://lesh.monster/remote-meetings" />
       <summary>Imagine you meet a bunch of old friends that you haven’t seen in a while. Everybody’s sharing their stories, and everybody else is actively listening, asking questions, and are fully immersed.</summary>
       <content type="html"><![CDATA[
         
@@ -596,11 +596,11 @@
     </entry>
   
     <entry>
-      <id>https://frantic.im/no-strings</id>
+      <id>https://lesh.monster/no-strings</id>
       <title>Things that are not strings</title>
       <updated>2020-08-19T12:00:00+00:00</updated>
 
-      <link rel="alternate" href="https://frantic.im/no-strings" />
+      <link rel="alternate" href="https://lesh.monster/no-strings" />
       <summary>As programmers, we have a collective delusion that anything that can be represented as a string, is a string. This thinking causes a whole bunch of problems.</summary>
       <content type="html"><![CDATA[
         
@@ -675,11 +675,11 @@ new SQL('SELECT * FROM posts' + filter);
     </entry>
   
     <entry>
-      <id>https://frantic.im/project-todo</id>
+      <id>https://lesh.monster/project-todo</id>
       <title>TODO file for personal projects</title>
       <updated>2020-04-13T12:00:00+00:00</updated>
 
-      <link rel="alternate" href="https://frantic.im/project-todo" />
+      <link rel="alternate" href="https://lesh.monster/project-todo" />
       <summary>In most of my personal projects I have a file called TODO. I use it like this…</summary>
       <content type="html"><![CDATA[
         
@@ -709,7 +709,7 @@ should happen next. No new features!
 <p>Then goes the estimate of how much effort I think the task will take. The scale is logarithmic: one star for simple straightforward tasks, two for cross-file change or little refactoring, three for a task that will take me a couple of hours. If the task needs four stars, I should break it down.</p>
 <p>To make text of the todos align nicely, I prepend a corresponding number of dots or spaces.</p>
 <p>Here’s what it looks like in one of the projects I work on:</p>
-<p><img src="https://frantic.im/assets/project-todo/TODO_file.png" alt="" /></p>
+<p><img src="https://lesh.monster/assets/project-todo/TODO_file.png" alt="" /></p>
 <h2>Why does this work for me?</h2>
 <ol>
 <li>There’s no context switch. TODO file is much faster to open than any external tool I’ve used, and all my editor shortcuts just work there the same way they work in my code.</li>
@@ -726,11 +726,11 @@ should happen next. No new features!
     </entry>
   
     <entry>
-      <id>https://frantic.im/no-internet</id>
+      <id>https://lesh.monster/no-internet</id>
       <title>Debugging home internet connection</title>
       <updated>2020-03-16T12:00:00+00:00</updated>
 
-      <link rel="alternate" href="https://frantic.im/no-internet" />
+      <link rel="alternate" href="https://lesh.monster/no-internet" />
       <summary>Overengineered way of measuring your internet connectivity.</summary>
       <content type="html"><![CDATA[
         
@@ -790,29 +790,29 @@ $ sudo systemctl start influxdb
 <span class="hljs-keyword">fi</span>
 </code></pre>
 <p>Note that I used a different event name for errors, this is to make it easier to plot them on the graph (zero or negative values did make the graph look less pretty and messed with things like average/p90 speed calculations).</p>
-<p><img src="https://frantic.im/assets/no-internet/Grafana-Query2.png" alt="" /></p>
+<p><img src="https://lesh.monster/assets/no-internet/Grafana-Query2.png" alt="" /></p>
 <p>This is the query in Grafana. Few things to note here:</p>
 <ul>
 <li>I used <code>math (* 8)</code> operation to get //bits per second//, since that’s how ISP refers to the value</li>
 <li>The errors are plotted as a different graph. From the download script you can see that error value can only be 1, I had to tell Grafana to use a different Y axis</li>
 </ul>
-<p><img src="https://frantic.im/assets/no-internet/Different-Y-Axis.png" alt="" /></p>
+<p><img src="https://lesh.monster/assets/no-internet/Different-Y-Axis.png" alt="" /></p>
 <p>After letting this script run for a while, here are the results:</p>
-<p><img src="https://frantic.im/assets/no-internet/Bingo.png" alt="" /></p>
+<p><img src="https://lesh.monster/assets/no-internet/Bingo.png" alt="" /></p>
 <p>Clearly something is not right. I called ISP again and gave them more info, time frames, etc. They still played innocent.</p>
 <h2>Looking at the hardware</h2>
 <p>To my surprise, the WiFi I was testing this on was served by an additional router that’s closer to the living rooms. I traced found the “main” switch that this router was connected to and plugged in my Raspberry Pi directly via ethernet port. The results were almost perfect:</p>
-<p><img src="https://frantic.im/assets/no-internet/Perfect.png" alt="" /></p>
+<p><img src="https://lesh.monster/assets/no-internet/Perfect.png" alt="" /></p>
 <p>D’oh! I should have started from this, and saved myself a lot of time.</p>
 <p>I upgraded the in-room router (802.11g → 802.11n) and reconfigured it to be <a href="https://openwrt.org/docs/guide-user/network/wifi/dumbap">a dumb access point</a>. My WiFi problem was fixed.</p>
 <p>Since I went this far, I figured I’d make this dashboard thing even better.</p>
 <h2>Making dashboard even better</h2>
 <p>The main router has a web-based UI. It’s not a very pretty one, but it’s definitely workable. It has all this useful info, like total bytes sent/received, info about clients, etc.</p>
-<p><img src="https://frantic.im/assets/no-internet/Router-Web-UI.png" alt="" /></p>
+<p><img src="https://lesh.monster/assets/no-internet/Router-Web-UI.png" alt="" /></p>
 <p>Old school Web UI with HTTP basic auth</p>
 <p>We are all spoiled by REST and Graphql APIs these days, but the web of the past had its own charm. It was so simple.</p>
 <p>Here’s what’s going on when I click “Refresh” stats button:</p>
-<p><img src="https://frantic.im/assets/no-internet/Router-Request.png" alt="" /></p>
+<p><img src="https://lesh.monster/assets/no-internet/Router-Request.png" alt="" /></p>
 <p>Chrome DevTools has a feature that allows you to copy the request as curl command</p>
 <p>Glueing a few curls and greps together, I came up with this. It works, but after figuring out how to turn something into an array in Bash I wished I’d just went with Python.</p>
 <pre><code class="language-bash"><span class="hljs-meta">#!/bin/bash</span>
@@ -823,20 +823,20 @@ IFS=<span class="hljs-string">&#x27;, &#x27;</span> <span class="hljs-built_in">
 curl -XPOST <span class="hljs-string">&#x27;http://localhost:8086/write?db=inet&#x27;</span> --data-binary <span class="hljs-string">&quot;router_stats bytes_received=<span class="hljs-variable">${stats[0]}</span>,bytes_sent=<span class="hljs-variable">${stats[1]}</span>,packets_received=<span class="hljs-variable">${stats[2]}</span>,packets_sent=<span class="hljs-variable">${stats[3]}</span>&quot;</span>
 </code></pre>
 <p>Note that the router doesn’t give me the speed, just the total bytes. Fortunately, Grafana can take a derivative, of that value, giving me approximate speed at a point in time:</p>
-<p><img src="https://frantic.im/assets/no-internet/Screen-Shot-2020-03-16-at-8.31.02-AM.png" alt="" /></p>
+<p><img src="https://lesh.monster/assets/no-internet/Screen-Shot-2020-03-16-at-8.31.02-AM.png" alt="" /></p>
 <p>I did the same for per device stats page, ping and a few other things.</p>
 <p>Currently, the end results looks like this:
-<img src="https://frantic.im/assets/no-internet/Dashboard.png" alt="" /></p>
+<img src="https://lesh.monster/assets/no-internet/Dashboard.png" alt="" /></p>
 
       ]]></content>
     </entry>
   
     <entry>
-      <id>https://frantic.im/explain-programming</id>
+      <id>https://lesh.monster/explain-programming</id>
       <title>Reconsidering the way I explain programming</title>
       <updated>2020-03-12T12:00:00+00:00</updated>
 
-      <link rel="alternate" href="https://frantic.im/explain-programming" />
+      <link rel="alternate" href="https://lesh.monster/explain-programming" />
       <summary>Successful communication is so much about understanding the context and the people on the receiving end</summary>
       <content type="html"><![CDATA[
         
@@ -844,7 +844,7 @@ curl -XPOST <span class="hljs-string">&#x27;http://localhost:8086/write?db=inet&
         
         <p>“Do you know a recipe for a recursive salad?” - I asked. “It consists of tomatoes, olives and a recursive salad”.</p>
 <p>My joke falls flat. Michael’s eyes confused and waiting for the explanation. I regroup and try a different strategy - sketching:</p>
-<p><img src="https://frantic.im/assets/explain-programming/recursion-1.png" alt="" /></p>
+<p><img src="https://lesh.monster/assets/explain-programming/recursion-1.png" alt="" /></p>
 <p><small>One of my failed attempts at explaining recursion</small></p>
 <p>—</p>
 <p>I’ve explained a lot of programming concepts to different people. From high school students who are just getting started, to experienced engineers who are quickly diving into a new programming language.</p>
@@ -876,7 +876,7 @@ curl -XPOST <span class="hljs-string">&#x27;http://localhost:8086/write?db=inet&
 <p>—</p>
 <p>Back to Michael. I showed him the IntelliJ debugger and asked to trace a very simple recursive program he wrote.</p>
 <p>“So it’s like the staircase!”, he exclaimed. “Every time we go in is like taking a step, and then we return all the way down”. Well, I guess <em>it is</em> kind of like staircase… I never thought about recursion this way myself. Now I think I can explain tail call optimization via an escalator analogy.</p>
-<p><img src="https://frantic.im/assets/explain-programming/recursion-2.png" alt="" />
+<p><img src="https://lesh.monster/assets/explain-programming/recursion-2.png" alt="" />
 <small>This is not the model I had in my mind, but I’ll definitely use it in the future</small></p>
 
       ]]></content>
