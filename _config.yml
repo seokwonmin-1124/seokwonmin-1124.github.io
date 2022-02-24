@@ -1,11 +1,10 @@
-title: frantic.im
-author: Alex Kotliarskyi
+title: lesh.monster
+author: lesh
 permalink: :title
-email: contact@frantic.im
-twitter: https://twitter.com/alex_frantic
+email: seokwonmin@naver.com
 description: Occasional posts on technology and stuff
 baseurl: ""
-url: https://frantic.im
+url: https://lesh.monster
 markdown: kramdown
 highlighter: rouge
 exclude:
