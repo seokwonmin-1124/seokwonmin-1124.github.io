@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://frantic.im/</id>
+  <title>frantic.im</title>
+  <link rel="self" href="https://frantic.im/feed.xml" />
+  <icon>https://frantic.im/favicon.png</icon>
+  <subtitle>Occasional posts on technology and stuff</subtitle>
+  <updated>2022-02-24T05:11:26.832Z</updated>
+  <author>
+    <name>Alex Kotliarskyi</name>
+  </author>
+
+  
+    <entry>
+      <id>https://frantic.im/leaving-facebook</id>
+      <title>On Leaving Facebook</title>
+      <updated>2022-01-21T12:00:00+00:00</updated>
+
+      <link rel="alternate" href="https://frantic.im/leaving-facebook" />
+      <summary>After 8.5 years at Facebook I joined a small startup called Replit. Leaving wasn't easy, and during the process I've talked to half a dozen friends who were in the similar situation.</summary>
+      <content type="html"><![CDATA[
+        
+        
+        
+        <p>I left Facebook (Meta) in 2021 to join a small startup called Replit. Leaving wasn’t easy, and during the process I’ve talked to half a dozen friends who were in the similar situation. I hope this post would be useful to senior engineers who are looking to leave.</p>
+<p>Disclaimers:</p>
+<ul>
+<li>This post isn’t sponsored by Replit, Facebook (Meta), or any other company or product mentioned here.</li>
+<li>The advice might not work for you in you are in a different spot in your career.</li>
+</ul>
+<h3>History so far</h3>
+<p>I joined Facebook in October 2012. I felt very lucky to be there. It’s hard to describe the energy and culture that existed at the time.</p>
+<p>I worked on all sorts of things. Started from internal tooling for tasks and configuration, then joined a new team that was bringing ReactJS to mobile (later known as React Native).</p>
+<p>After that I worked on making an awesome onboarding experience for VR users at Oculus, and ended up learning a ton about cryptography and security protocols. Then I moved to Seattle, co-founded a team that made the Messenger for macOS and Windows.</p>
+<p>8.5 years is forever in the tech world. Facebook makes it very easy to switch between teams, and every project I’ve been on felt like a small startup inside a large company.</p>
+<h3>Reasons to quit</h3>
+<p>Facebook has changed a lot since 2012. The types of projects that I thrive in were harder to come by.</p>
+<p>The magic was gone.</p>
+<p>Things I care a lot about, like quality, craft and focus, weren’t as important as scale, metrics and PSC.</p>
+<p>None of this happened suddenly, just a very slow process. That was one of the reason it was hard to leave.</p>
+<h3>Why is it so hard to quit Facebook</h3>
+<p>Working at Facebook is very comfortable. There’s a million benefits, but some of them are harder to notice.</p>
+<p>The salary is high. Facebook aims to pay top 5% compensation in the market (we’ll get back to that). This makes a lot of other things very comfortable: you can go to a restaurant without worrying too much about the bill, get a nicer car, a nicer house, better stuff.</p>
+<p>The stock is doing well and is very liquid. Refreshers are constantly added in a way where there’s no great time to leave, there’s always a next vesting event to look forward to.</p>
+<p>The benefits are top notch. Almost every doctor I visited said “wow” when looking at the health insurance. It’s very comfortable to know that you are likely not going to receive a huge bill for doing an ultra sound for a routine checkup.</p>
+<p>Then there’s the Prestige. Facebook gets a lot of blame in media lately, but in everyday life it’s still very prestigious place to be working at. Getting a mortgage or a car loan is easy, saying you work for Facebook gets you on the fast line.</p>
+<p>It’s comfortable to know that even if your project fails, you are not going to loose your job, your savings or your RSUs.</p>
+<p>It’s comfortable to know your next steps on the career ladder. Getting from level N to N+1 is documented in the wiki, you make a plan with your manager from the blueprint and keep executing.</p>
+<p>It’s comfortable to have the social capital to lean on. As an “old-timer” you get a different treatment and more opportunities.</p>
+<h3>How not to quit Facebook</h3>
+<p>This was not the first time I tried to quit Facebook.</p>
+<p>In 2018 I found myself in between teams. My previous project was moved to Los Angeles, I moved to Seattle. At the time I was getting a steady email traffic from recruiters, so I decided to respond to some to see what the market has to offer.</p>
+<p>I opened up Leetcode and started chipping away at the problems in the “Hard” section. It took me days to solve some and I felt miserable.</p>
+<p>Self-doubt crept in, and I started to lose motivation. I hopped on 2 phone screens and failed both. It was humiliating and I felt like shit.</p>
+<p>In the end things turned out to be pretty good for me. I doubled down on internal search and found a manager with an ambitious dream, and together we built Messenger Desktop.</p>
+<p>For a while, Messenger Desktop did feel like a startup. We built MVPs, did user research, pivoted, built even better product. We grew a team from zero to 18 people, then doubled. It was a lot of fun.</p>
+<p>But after a while, big corporation found its way in. Reorgs. Leadership changes. Direction churn. Politics. Lots of talks and meetings, and very little progress forward. The key people got burnt out and started leaving.</p>
+<p>It was time for me to go, too. But this time I was determined to do it better.</p>
+<h3>Looking for a new company</h3>
+<p>As a blueprint for my latest job search I took a course made by my friend: <a href="https://jobsearch.dev/">Senior Engineer Jobsearch</a>.</p>
+<p>The most important thing I did this time was to change my mindset. Instead of trying to escape my unhappiness at Facebook, I took this as an opportunity to learn more about companies.</p>
+<p>I started with The Narrative: a 2 page document outlining my career story so far, highlighting things that worked and things that didn’t, environments and products where I was the happiest, things I wanted to learn and risks I was willing to take.</p>
+<p>At the time it felt like I was spending too much time on it (~ a week). In retrospect I wish I spent more time on it, and I’ll explain why in a second. Also it was a good idea to share this document with a few managers I’ve worked in the past, they helped me add and refine a bunch of points in the narrative.</p>
+<p>I’ve set a deadline for myself to make a decision ~ 2 months out. This helped a lot because I could plan my interviews to all happen towards that date. In retrospect, it took 3 months to explore, interview, negotiate and make a decision.</p>
+<p>3 months might seem like a lot, but only if you think of it as a chore or something you have to go through. With the right mindset, it’s one of the most fun and exciting times of my career. I’ve met a bunch of awesome people and learned a ton about the market and myself.</p>
+<h3>Applications</h3>
+<p>Most recruiters are terrible. They send generic job descriptions if there’s a matching word in your resume. I’m very surprised the market didn’t push the recruiter game up. There’s so much room for improvement!</p>
+<p>Avenues I’ve used:</p>
+<ul>
+<li>Replied to a few dozens LinkedIn message requests. These resulted in a few phone calls, but none of them seemed to be the right fit</li>
+<li>Replied to a dozen emails sent directly to my email address. Some of these resulted in interview loops.</li>
+<li>Directly reached out to a few companies I’ve heard of.</li>
+</ul>
+<p>This time in the spirit of exploration I also talked to a few fintech companies. I entered the discussions with pre-existing biases that these places are stressfull, not innovative but well paying. The conversations confirmed these biases (except the salaries, which were lower than I expected).</p>
+<p>In the end I applied to a bunch of smaller tech-related companies.</p>
+<h3>Preparation</h3>
+<p>My preparation plan was different this time, too. Instead of jumping on “Hard” leetcode questions, I started with “Easy”. It was reassuring, I could churn out a bunch of these in an hour, and it was so satisfying to see green check marks next to the unit test runs.</p>
+<p>I asked a few friends for mock interviews. These were useful too.</p>
+<p>But the highest return on time invested was not related to doing things at the computer. I’ve fixed my sleep schedule, made sure to walk a lot every day and eat better food.</p>
+<p>The reasoning behind this plan was simple: I’ve been coding for almost 20 years. In my experience, the right mindset and good physical shape are far, far more important for problem solving than practicing very niche coding tasks.</p>
+<h3>Interviews</h3>
+<p>This time I had zero interviews asking me to do leetcode-like problems. By leetcode I mean an abstract graph problem that has a traditional memory/CPU trade-offs.</p>
+<p>All problems felt very relevant. E.g. at Replit the phone screen task was to build a small part of Replit, Figma asked to align 2 rectangles and design Figma file format, etc.</p>
+<p>What I loved about these problems is that they were all very relevant to the product. They are also very “real-world”, with no best solution, and readability was important too.</p>
+<h3>Offers and compensation</h3>
+<p>Facebook aims to pay top 5% of the market. Which means almost everywhere you go, the pay would be lower.</p>
+<p>Comparing FAANG and startup offers is hard. Facebook stock is basically cash. Startup equity throws you into long articles about ISOs and tax complications. I’ve spent tens of hours trying to figure out how to reason about these and still didn’t have a satisfying answer.</p>
+<p>To cut the chase, the best offer I got was roughly 70% of what I was making at Facebook.</p>
+<p>However, I found the process of comparing raw numbers like that very damaging. It spawns a rational though: if I were leaving Facebook to find a more fulfilling role, maybe I should stay, take the 30% difference and invest in a personal trainer or a couch? Plus an extra exotic vacation to boost that happiness levels.</p>
+<p>The way out of this is to consider the total compensation as a lagging factor. You can optimize it within a certain range, but it’s much better idea to invest into the leading factors instead.</p>
+<p>You should also read this article on <a href="https://www.kalzumeus.com/2012/01/23/salary-negotiation/">salary negotiation</a>. Senior Engineer Jobsearch goes over this too: when speaking to the recruiters you are at disadvantage and you should at the very least be aware of basic tactics.</p>
+<p>In my experience, having competing offers made it possible to get better numbers. But numbers is not the only thing.</p>
+<h3>Making a decision</h3>
+<p>Ultimately making a choice is hard and very personal.</p>
+<p>You also have to keep track of the incentives here. Recruiters’ and hiring managers’ job is to close you. That’s where the narrative document from earlier is extremely helpful. In the whirlpool of calls and discussions you have to keep your narrative front and center, otherwise you’ll get pulled into comparing meaningless benefits you don’t really care about.</p>
+<h3>Accepting offer, giving notice, etc.</h3>
+<p>For some reason I thought of these events as big milestones. In the end accepting the offer was as easy as clicking a Docusign form. Leaving Facebook wasn’t much more complicated: I emailed my HRBP, we’ve scheduled an exit interview. I got a checklist of items to do (transferring my phone number was the hardest one).</p>
+<p>The exit interview was pleasant. Just a couple of basic questions (I’ve heard they replaced it by a form now).</p>
+<p>The next Monday I started at the new place.</p>
+<h3>After 9 months</h3>
+<p>I still have good friends working for Facebook, and when we chat about work, I can’t help but notice how unimportant the old problems seem to me. A new reorg? That person being a dick? In the past I was upset by choosing bad trade-offs, teams acting in selfish fashion, drama and re-orgs. Now these problems seem so distant.</p>
+<p>First week at the new place was like drinking from the fire hose. Slack messages, email, tools, terminology I did not understand. Under the hood it’s still code, and I was able to ship a few small fixes by the end of the first week.</p>
+<p>I do miss a bunch of Facebook internal tools. Phabricator, Workplace, Scuba, Deltoid and a bunch of others.</p>
+<p>During the first month I had to unlearn a bunch of Facebook skills. E.g. a common thought that crept into my decision process there was “Is this big enough scope? Can I communicate the importance of this and get people involved recognized?”</p>
+<p>After joining Replit 9 months ago, I’ve shipped <a href="https://blog.replit.com/multiplayer-debugging">debugger</a>, <a href="https://blog.replit.com/rui-eng">the new design system</a>, <a href="https://blog.replit.com/solidity">web3 support</a>. The team is top notch, and the vibes remind me my early days at Facebook so much.</p>
+<p>A common question I get is about work/life balance. And I view it a little different too now. At Facebook I could get by barely working a few hours a day. But the job was so unsatisfying that it spilled the frustration in the “life” part. So I re-frame the question: how’s work affecting your life? For me leaving Facebook was definitely a huge improvement.</p>
+<h3>What’s next?</h3>
+<p>I’m now working on making <a href="https://blog.replit.com/mobile-v2">mobile</a> experience for Replit users much nicer. So many people outside of US are learning to code on their phones, and this space gets no attention from the professional programmers. I have a million ideas that have been brewing in my head for the last 5 years and I can’t wait to put them to use.</p>
+<h3>One more thing…</h3>
+<p>Re-reading this post might seem like I know what I’m doing. I don’t. It’s easy to connect the dots looking backward and assemble a story. But living through that story is a different experience.</p>
+<p>If any part of this story was interesting to you, please feel free to reach out. I have my email address published on this website and <a href="https://twitter.com/alex_frantic">Twitter</a> DMs are good, too.</p>
+
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <id>https://frantic.im/react-api-evolution</id>
+      <title>React API evolution</title>
+      <updated>2021-03-11T12:00:00+00:00</updated>
+
+      <link rel="alternate" href="https://frantic.im/react-api-evolution" />
+      <summary>From React.createClass to hooks: why React is at odds with JavaScript</summary>
+      <content type="html"><![CDATA[
+        
+        
+        
+        <p>React is ~8 years old. I remember the day when I saw the first demo — I was amazed at how genius yet how simple it was! I still carry that excitement to this day.</p>
+<p>During this time React changed a bunch, but its core ideas have stayed the same. It’s still all about thinking about your UI code as a function of state, bringing state front and center, immutable data, one-directional data flows, composition over inheritance.</p>
+<p>In this post I’ll share how the developer APIs have evolved, specifically we’ll talk about defining components and sharing common code between components.</p>
+<iframe style="max-width: 100%" width="560" height="315" src="https://www.youtube-nocookie.com/embed/QEGbuc-sKtE?rel=0" frameborder="0" allowfullscreen></iframe>
+<h2>2013, <a href="https://web.archive.org/web/20130607112820/http://facebook.github.io/react/">React v0.3.0</a>: <code>React.createClass</code></h2>
+<pre><code class="language-js"><span class="hljs-comment">/** <span class="hljs-doctag">@jsx</span> React.DOM */</span>
+<span class="hljs-keyword">var</span> <span class="hljs-title class_">Timer</span> = <span class="hljs-title class_">React</span>.<span class="hljs-title function_">createClass</span>({
+  <span class="hljs-attr">propTypes</span>: {
+    <span class="hljs-attr">name</span>: <span class="hljs-title class_">React</span>.<span class="hljs-property">PropTypes</span>.<span class="hljs-property">string</span>.<span class="hljs-property">isRequired</span>,
+  },
+  <span class="hljs-attr">getInitialState</span>: <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
+    <span class="hljs-keyword">return</span> { <span class="hljs-attr">seconds</span>: <span class="hljs-number">0</span> };
+  },
+  <span class="hljs-attr">tick</span>: <span class="hljs-title class_">React</span>.<span class="hljs-title function_">autoBind</span>(<span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
+    <span class="hljs-variable language_">this</span>.<span class="hljs-title function_">setState</span>({ <span class="hljs-attr">seconds</span>: <span class="hljs-variable language_">this</span>.<span class="hljs-property">state</span>.<span class="hljs-property">seconds</span> + <span class="hljs-number">1</span> });
+  }),
+  <span class="hljs-attr">componentDidMount</span>: <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
+    <span class="hljs-built_in">setInterval</span>(<span class="hljs-variable language_">this</span>.<span class="hljs-property">tick</span>, <span class="hljs-number">1000</span>);
+  },
+  <span class="hljs-attr">render</span>: <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
+    <span class="hljs-keyword">return</span> (
+      <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        Hello, {this.props.name}! It&#x27;s been {this.state.seconds} seconds
+      <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+    );
+  },
+});
+
+<span class="hljs-title class_">React</span>.<span class="hljs-title function_">renderComponent</span>(<span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">Timer</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;Alex&quot;</span> /&gt;</span></span>, <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&quot;main&quot;</span>));
+</code></pre>
+<p>Initeresting things to note here:</p>
+<ol>
+<li><code>/** @jsx React.DOM */</code> was required for the JSXTransformer to convert XML-in-JS syntax (like <code>&lt;div&gt;Hello&lt;/div&gt;</code>) to function calls (like <code>React.DOM.div({}, 'Hello')</code>)</li>
+<li><code>React.createClass</code> was used to create a component. I think in hindsight naming it <code>Class</code> and not <code>Component</code> was a big marketing mistake: with ES6 classes many people were pushing for React to adopt the “standard” way, although it had a lot of problems (more on that later).</li>
+<li>In development, React performed <code>props</code> validation at runtime (Flow and TypeScript didn’t exist back then), and the <code>PropTypes</code> API allowed for pretty complex definitions with nested objects and arrays.</li>
+<li>Initially, without <code>React.autoBind</code> the methods on the components had dynamically scoped <code>this</code>, which was pretty confusing: calling <code>this.tick</code> would result in something like “Can’t call <code>setState</code> of unndefined”. <code>autoBind</code> was doing something like <code>fn.bind(this)</code> to fix it on per-function basis, and eventually this behavior was moved directly into <code>React.createClass</code>.</li>
+<li>React focused on a pure, functional, declarative approach to bulding UIs, but also had escape hatches that allowed programmers take imperative actions or talk to DOM when needed via lifecycle methods and refs.</li>
+</ol>
+<p>If you look carefully at the example above, you’ll notice that there’s a memory leak! We <code>setInterval</code> without <code>clearInterval</code>-ing it. To fix the problem we’d have to call <code>clearInterval</code> from <code>componentWillUnmount</code>, however that wasn’t obvious from the APIs and programmers had to watch out for patterns like this.</p>
+<p>That was a common pitfall: managing resources and making sure parts that were not managed by React were in sync with the UI.</p>
+<p>It was clear there’s a need for a way for the components to share behavior traits. Early versions of React shipped with a solution to this problem: mixins.</p>
+<h3>Mixins</h3>
+<pre><code class="language-js"><span class="hljs-comment">/** <span class="hljs-doctag">@jsx</span> React.DOM */</span>
+
+<span class="hljs-keyword">var</span> <span class="hljs-title class_">SetIntervalMixin</span> = {
+  <span class="hljs-attr">componentWillMount</span>: <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
+    <span class="hljs-variable language_">this</span>.<span class="hljs-property">intervals</span> = [];
+  },
+  <span class="hljs-attr">setInterval</span>: <span class="hljs-keyword">function</span> (<span class="hljs-params">callback, interval</span>) {
+    <span class="hljs-variable language_">this</span>.<span class="hljs-property">intervals</span>.<span class="hljs-title function_">push</span>(<span class="hljs-built_in">setInterval</span>(callback, interval));
+  },
+  <span class="hljs-attr">componentWillUnmount</span>: <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
+    <span class="hljs-variable language_">this</span>.<span class="hljs-property">intervals</span>.<span class="hljs-title function_">map</span>(<span class="hljs-built_in">clearInterval</span>);
+  },
+};
+
+<span class="hljs-keyword">var</span> <span class="hljs-title class_">TickTock</span> = <span class="hljs-title class_">React</span>.<span class="hljs-title function_">createClass</span>({
+  <span class="hljs-attr">mixins</span>: [<span class="hljs-title class_">SetIntervalMixin</span>],
+
+  <span class="hljs-attr">getInitialState</span>: <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
+    <span class="hljs-keyword">return</span> { <span class="hljs-attr">seconds</span>: <span class="hljs-number">0</span> };
+  },
+  <span class="hljs-attr">componentDidMount</span>: <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
+    <span class="hljs-variable language_">this</span>.<span class="hljs-built_in">setInterval</span>(<span class="hljs-variable language_">this</span>.<span class="hljs-property">tick</span>, <span class="hljs-number">1000</span>);
+  },
+  <span class="hljs-attr">tick</span>: <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
+    <span class="hljs-variable language_">this</span>.<span class="hljs-title function_">setState</span>({ <span class="hljs-attr">seconds</span>: <span class="hljs-variable language_">this</span>.<span class="hljs-property">state</span>.<span class="hljs-property">seconds</span> + <span class="hljs-number">1</span> });
+  },
+  <span class="hljs-attr">render</span>: <span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) {
+    <span class="hljs-keyword">return</span> <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>It&#x27;s been {this.state.seconds} seconds<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span></span>;
+  },
+});
+</code></pre>
+<p>The code above fixes the memory leak and makes it easier to avoid this problem in the future: just include <code>SetIntervalMixin</code> and you are good to go!</p>
+<p>Mixins fixed some problems, but intruduced others: implicit dependencies, name clashes and snowballing complexities. <a href="https://reactjs.org/blog/2016/07/13/mixins-considered-harmful.html">Read more on the official blog post (2016)</a>.</p>
+<h2>2015, <a href="https://reactjs.org/blog/2015/01/27/react-v0.13.0-beta-1.html">React v0.13</a>: <code>class extends React.Component</code></h2>
+<p>The big feature of this release was ES6 class support:</p>
+<blockquote>
+<p>JavaScript originally didn’t have a built-in class system. Every popular framework built their own, and so did we. This means that you have a learn slightly different semantics for each framework.</p>
+</blockquote>
+<blockquote>
+<p>We figured that we’re not in the business of designing a class system. We just want to use whatever is the idiomatic JavaScript way of creating classes.</p>
+</blockquote>
+<pre><code class="language-js"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Timer</span> <span class="hljs-keyword">extends</span> <span class="hljs-title class_ inherited__">React.Component</span> {
+  <span class="hljs-title function_">constructor</span>(<span class="hljs-params">props</span>) {
+    <span class="hljs-variable language_">super</span>(props);
+    <span class="hljs-variable language_">this</span>.<span class="hljs-property">state</span> = {<span class="hljs-attr">seconds</span>: <span class="hljs-number">0</span>};
+  }
+  <span class="hljs-title function_">tick</span>(<span class="hljs-params"></span>) {
+    <span class="hljs-variable language_">this</span>.<span class="hljs-title function_">setState</span>({<span class="hljs-attr">seconds</span>: <span class="hljs-variable language_">this</span>.<span class="hljs-property">state</span>.<span class="hljs-property">seconds</span> + <span class="hljs-number">1</span>});
+  }
+  <span class="hljs-title function_">componentDidMount</span>(<span class="hljs-params"></span>) {
+    <span class="hljs-built_in">setInterval</span>(<span class="hljs-variable language_">this</span>.<span class="hljs-property">tick</span>.<span class="hljs-title function_">bind</span>(<span class="hljs-variable language_">this</span>), <span class="hljs-number">1000</span>);
+  }
+  <span class="hljs-title function_">render</span>(<span class="hljs-params"></span>) {
+    <span class="hljs-keyword">return</span> (
+      <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        Hello, {this.props.name}! It&#x27;s been {this.state.seconds} seconds
+      <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+    );
+  }
+});
+
+<span class="hljs-title class_">Counter</span>.<span class="hljs-property">propTypes</span> = {
+  <span class="hljs-attr">name</span>: <span class="hljs-title class_">React</span>.<span class="hljs-property">PropTypes</span>.<span class="hljs-property">string</span>.<span class="hljs-property">isRequired</span>,
+};
+</code></pre>
+<p>However, in my opinion ES6 classes didn’t fix the problem, but made it worse.</p>
+<p>First, the benefits weren’t super valuable. React shipped <code>Component</code> and <code>PureComponent</code> to inherit from, inheriting other components was discouraged (in favor of <a href="https://reactjs.org/docs/composition-vs-inheritance.html">composition</a>).</p>
+<p>Second, the semantics resulted in a bunch of ergonomics problems.</p>
+<p>In the example above, if you forgot to do <code>this.tick.bind(this)</code>, you’ll get the same “Can’t call <code>setState</code> of unndefined” as in pre-<code>autoBind</code> days. There were several popular ways to address this, none of them seemed ideal though:</p>
+<ul>
+<li>Do it inline: easy to forget, <code>bind</code> returns a new function instance for every call (which hurts if you rely on <code>shouldComponentUpdate</code>):</li>
+</ul>
+<pre><code class="language-js">&lt;button onClick={<span class="hljs-variable language_">this</span>.<span class="hljs-property">increment</span>.<span class="hljs-title function_">bind</span>(<span class="hljs-variable language_">this</span>)} /&gt;
+</code></pre>
+<ul>
+<li>Do it in the constructor: verbose, easy to miss:</li>
+</ul>
+<pre><code class="language-js"><span class="hljs-title function_">constructor</span>(<span class="hljs-params">props</span>) {
+  <span class="hljs-comment">// ...</span>
+  <span class="hljs-variable language_">this</span>.<span class="hljs-property">tick</span> = <span class="hljs-variable language_">this</span>.<span class="hljs-property">tick</span>.<span class="hljs-title function_">bind</span>(<span class="hljs-variable language_">this</span>);
+}
+</code></pre>
+<ul>
+<li>Arrow functions + E7 property initializers: its syntax is inconsistent with method definitions in subtle ways (also note <code>;</code> at the end of <code>tick</code>):</li>
+</ul>
+<pre><code class="language-js"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Timer</span> <span class="hljs-keyword">extends</span> <span class="hljs-title class_ inherited__">React.Component</span> {
+  tick = <span class="hljs-function">() =&gt;</span> {
+    <span class="hljs-comment">// ...</span>
+  };
+
+  <span class="hljs-title function_">componentDidMount</span>(<span class="hljs-params"></span>) {
+    <span class="hljs-built_in">setInterval</span>(<span class="hljs-variable language_">this</span>.<span class="hljs-property">tick</span>, <span class="hljs-number">1000</span>);
+  }
+}
+</code></pre>
+<h3>Higher-order components</h3>
+<p>As mixing were goin away, the developers needed to fill the gap: find a way to reuse common functionality across components.</p>
+<p>HoC became a popular replacement for mixins. You can think of the pattern as writing a function that takes a component as its argument, and returns a new component that wraps it with some useful enhancement.</p>
+<p>Here’s an example of HoC that does the same thing as the <code>SetIntervalMixin</code> from the earlier example:</p>
+<pre><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">withTimer</span>(<span class="hljs-params">Component</span>) {
+  <span class="hljs-keyword">return</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">extends</span> <span class="hljs-title class_">React</span>.<span class="hljs-property">Component</span> {
+    <span class="hljs-title function_">constructor</span>(<span class="hljs-params">props</span>) {
+      <span class="hljs-variable language_">super</span>(props);
+      <span class="hljs-variable language_">this</span>.<span class="hljs-property">intervals</span> = [];
+    }
+    <span class="hljs-built_in">setInterval</span> = <span class="hljs-function">(<span class="hljs-params">callback, interval</span>) =&gt;</span> {
+      <span class="hljs-variable language_">this</span>.<span class="hljs-property">intervals</span>.<span class="hljs-title function_">push</span>(<span class="hljs-built_in">setInterval</span>(callback, interval));
+    };
+    <span class="hljs-title function_">componentWillUnmount</span>(<span class="hljs-params"></span>) {
+      <span class="hljs-variable language_">this</span>.<span class="hljs-property">intervals</span>.<span class="hljs-title function_">map</span>(<span class="hljs-built_in">clearInterval</span>);
+    }
+    <span class="hljs-title function_">render</span>(<span class="hljs-params"></span>) {
+      <span class="hljs-comment">// Render the original component with some additional props</span>
+      <span class="hljs-keyword">return</span> <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">Component</span> {<span class="hljs-attr">...this.props</span>} <span class="hljs-attr">setInterval</span>=<span class="hljs-string">{this.setInterval}</span> /&gt;</span></span>
+    }
+  }
+}
+
+<span class="hljs-keyword">class</span> <span class="hljs-title class_">Timer</span> <span class="hljs-keyword">extends</span> <span class="hljs-title class_ inherited__">React.Component</span> {
+  <span class="hljs-title function_">constructor</span>(<span class="hljs-params">props</span>) {
+    <span class="hljs-variable language_">super</span>(props);
+    <span class="hljs-variable language_">this</span>.<span class="hljs-property">state</span> = {<span class="hljs-attr">seconds</span>: <span class="hljs-number">0</span>};
+  }
+  <span class="hljs-title function_">tick</span>(<span class="hljs-params"></span>) {
+    <span class="hljs-variable language_">this</span>.<span class="hljs-title function_">setState</span>({<span class="hljs-attr">seconds</span>: <span class="hljs-variable language_">this</span>.<span class="hljs-property">state</span>.<span class="hljs-property">seconds</span> + <span class="hljs-number">1</span>});
+  }
+  <span class="hljs-title function_">componentDidMount</span>(<span class="hljs-params"></span>) {
+    <span class="hljs-variable language_">this</span>.<span class="hljs-property">props</span>.<span class="hljs-built_in">setInterval</span>(<span class="hljs-variable language_">this</span>.<span class="hljs-property">tick</span>.<span class="hljs-title function_">bind</span>(<span class="hljs-variable language_">this</span>));
+  }
+  <span class="hljs-title function_">render</span>(<span class="hljs-params"></span>) {
+    <span class="hljs-keyword">return</span> (
+      <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        Hello, {this.props.name}! It&#x27;s been {this.state.seconds} seconds
+      <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+    );
+  }
+});
+</code></pre>
+<p>HoC promise is to use functional composition to solve the trait problem. But they do come with their own drawbacks too, especially around the ergonomics:</p>
+<ol>
+<li>Creating and using them is verbose, it’s not uncommon to end up with wrappers on top of wrappers, e.g. <code>withTranslations(withTimer(connect()(Timer)))</code>.</li>
+<li>This indirection breaks <code>refs</code> and makes writing pure components harder, unless implemented carefully.</li>
+<li>Devtools show very deep wrapped component hierarchies that hurt readability:</li>
+</ol>
+<p><img src="https://frantic.im/assets/react-api-evolution/deep-hocs.png" alt="" /></p>
+<h3>Render props</h3>
+<p>React community kept looking for better ways to reuse logic in components and for some time a pattern called “render props” gained a bunch of popularity. I’m not going to dive into these dark ages, but the idea was similar to HoC.</p>
+<h2>2019, <a href="https://reactjs.org/blog/2019/02/06/react-v16.8.0.html">React v16.8</a>: Hooks</h2>
+<p>Around the time the release with ES6 was published, the React team made it possible to define components as simple functions, aka “stateless functional components”:</p>
+<pre><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">Timer</span>(<span class="hljs-params">props</span>) {
+  <span class="hljs-keyword">return</span> <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>Hello, {props.name}!<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>;
+}
+
+<span class="hljs-title class_">React</span>DOM.<span class="hljs-title function_">render</span>(<span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">Timer</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;Alex&quot;</span> /&gt;</span></span>, <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&quot;main&quot;</span>));
+</code></pre>
+<p>This was very popular: simple, concise, idiomatic. However, how do you get access to state or lifecycle methods?</p>
+<p>After a bunch of prototyping and explorations, the React team presented the way – hooks.</p>
+<pre><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">Timer</span>(<span class="hljs-params">props</span>) {
+  <span class="hljs-keyword">const</span> [seconds, setSeconds] = <span class="hljs-title function_">useState</span>(<span class="hljs-number">0</span>);
+
+  <span class="hljs-title function_">useEffect</span>(<span class="hljs-function">() =&gt;</span> {
+    <span class="hljs-keyword">const</span> interval = <span class="hljs-built_in">setInterval</span>(<span class="hljs-function">() =&gt;</span> <span class="hljs-title function_">setSeconds</span>(<span class="hljs-function">(<span class="hljs-params">s</span>) =&gt;</span> s + <span class="hljs-number">1</span>), <span class="hljs-number">1000</span>);
+    <span class="hljs-keyword">return</span> <span class="hljs-function">() =&gt;</span> {
+      <span class="hljs-built_in">clearInterval</span>(interval);
+    };
+  }, []);
+
+  <span class="hljs-keyword">return</span> (
+    <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+      Hello, {props.name}! It&#x27;s been {seconds} seconds
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+  );
+}
+</code></pre>
+<p>Programmers familiar with algebraic effects saw the striking similarities.</p>
+<p>Notably, the mental model of hooks shifted from “lifecycle methods” to “sync things outside React’s control with UI”.</p>
+<p>For example, <code>useEffect</code> is built in a way that makes it easy to colocate resource acquisition and release, making memory leaks much easier to avoid. The second argument to <code>useEffect</code> is a list of dependencies, if any of them change between calls to the same <code>useEffect</code>, React will clean up the previous one and will recreate a new one. Getting this right with <code>componentDidMount</code> / <code>componentWillReceiveProps</code> / <code>componentWillUnmount</code> was hard.</p>
+<p>Hooks have solved the problem of sharing common functionality across components in a very elegant, composable ways:</p>
+<pre><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">useInterval</span>(<span class="hljs-params">callback, ms</span>) {
+  <span class="hljs-title function_">useEffect</span>(<span class="hljs-function">() =&gt;</span> {
+    <span class="hljs-keyword">const</span> interval = <span class="hljs-built_in">setInterval</span>(callback, ms);
+    <span class="hljs-keyword">return</span> <span class="hljs-function">() =&gt;</span> {
+      <span class="hljs-built_in">clearInterval</span>(interval);
+    };
+  }, [callback, ms]);
+}
+
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">Timer</span>(<span class="hljs-params">props</span>) {
+  <span class="hljs-keyword">const</span> [seconds, setSeconds] = <span class="hljs-title function_">useState</span>(<span class="hljs-number">0</span>);
+  <span class="hljs-title function_">useInterval</span>(<span class="hljs-function">() =&gt;</span> <span class="hljs-title function_">setSeconds</span>(<span class="hljs-function">(<span class="hljs-params">s</span>) =&gt;</span> s + <span class="hljs-number">1</span>), <span class="hljs-number">1000</span>);
+
+  <span class="hljs-keyword">return</span> (
+    <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+      Hello, {props.name}! It&#x27;s been {seconds} seconds
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+  );
+}
+</code></pre>
+<p>But hooks were not without problems either: in the example above there’s a subtle problem with the callback we pass to <code>useInterval</code>: since it’s a new referance every time (in JS, <code>() =&gt; {}</code> !== <code>() =&gt; {}</code>) we end up re-creating interval every render. The solution looks like this:</p>
+<pre><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">Timer</span>(<span class="hljs-params">props</span>) {
+  <span class="hljs-keyword">const</span> [seconds, setSeconds] = <span class="hljs-title function_">useState</span>(<span class="hljs-number">0</span>);
+  <span class="hljs-keyword">const</span> increment = <span class="hljs-title function_">useCallback</span>(<span class="hljs-function">() =&gt;</span> <span class="hljs-title function_">setSeconds</span>(<span class="hljs-function">(<span class="hljs-params">s</span>) =&gt;</span> s + <span class="hljs-number">1</span>), []);
+  <span class="hljs-title function_">useInterval</span>(increment, <span class="hljs-number">1000</span>);
+
+  <span class="hljs-comment">// ...</span>
+}
+</code></pre>
+<p>Compared to <code>React.Component</code> and mixins, React Hooks traded <code>this</code> and related class gotchas for JS scope gotchas. I think it was a good trade to make.</p>
+<h1>Conclusions</h1>
+<ol>
+<li>React did an awesome job keeping the API surface very small. Watching the documentation across all these years felt like the team is actively <em>removing</em> things that are non-essential.</li>
+<li>React evolved in a steady, backwards-compatible way. You can still use <code>React.createClass</code> APIs via a package, if you want to. Facebook code written in 2013 still works fine (after applying minor codemods).</li>
+<li>React is at odds with JavaScript: from JSX syntax, ES6 class method bindings gotchas to reinvention of algebraic effects.</li>
+</ol>
+
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <id>https://frantic.im/octave</id>
+      <title>A side project story: octave.im (2013-2016)</title>
+      <updated>2021-02-23T12:00:00+00:00</updated>
+
+      <link rel="alternate" href="https://frantic.im/octave" />
+      <summary>A story about my attempt at SaaS</summary>
+      <content type="html"><![CDATA[
+        
+        
+        
+        <p>It all started around 2013: I was going through a course on <a href="https://www.coursera.org/learn/machine-learning">Machine Learning by Andrew Ng</a>.</p>
+<p>The practical part of the course depended on GNU Octave (open source math toolkit), but installing it on a Mac was a huge pain. I did manage to do it, but noticed that many people on forums complanied about the same thing.</p>
+<p>So I had a brilliant idea — wouldn’t it be great if Octave was available via SaaS model? With fancy features like built in code editor, command line and plots?</p>
+<h1>Node, React &amp; Docker</h1>
+<p>I built the first prototype in one night on June 8, 2013. I used NodeJS 0.10-ish with socket.io on the server side and CodeMirror with some plugins on the frontend.</p>
+<p>In October that year I rewrote the frontend in React — the experience of doing so was amazing! React was young (<code>createClass</code>/<code>autobind</code>/<code>mixins</code>) but its programming model “clicked” with me. I remember hanging out in their IRC channel looking for help with autoscrolling. I was really impressed at how quick and friendly the response was (thanks <a href="https://twitter.com/sophiebits">@sophiebits</a>!).</p>
+<p>The initial version of the backend would just run <code>octave</code> in a dedicated folder. My second iteration ued Docker, which at the time was very new and unproven. It all ran on a Digital Ocean 2GB RAM droplet.</p>
+<p>The killer feature was displaying plots inline in a REPL. You can see it on this gif:</p>
+<p><img src="https://frantic.im/assets/octave.im/octave-demo.gif" alt="" /></p>
+<p>It worked through a clever hack: I pre-configured Octave to use gnuplot with special arguments that made it save the graph to a file (instead of showing it on the screen). My NodeJS backend listened to filesystem changes and notified the frontend when it detected the update.</p>
+<h1>Product market fit</h1>
+<p>I tried to promote octave.im for the students of the ML course. I posted the link on forums couple of times and added it to the course wiki page (that was surprisingly very hidden). The reception among students has been really positive, but the course moderators weren’t happy: they wanted some kind of validation that it’s a serious thing (which it wasn’t).</p>
+<p>Overall I had more than 3500 people sign up over the course of several years. Unfortunately I didn’t keep any metrics screenshots. The twitter account, <a href="https://twitter.com/OctaveCloud">@OctaveCloud</a>, got 57 followers (organically).</p>
+<p>Speaking of which, I used Mixpanel and loved its simple API and dashboards. They even sent me a free T-shirt :)</p>
+<h1>Total profit: -$420</h1>
+<p>As every other hacker out there I also hoped to make it sustainable, so in October 2015 I added $4 monthly subscription with 2 weeks trial. To be honest I wasn’t very serious about it at that point. I just wanted to play with Stripe, see if people would actually pay. And they did! Overall I have collected about $300 in revenue.</p>
+<p>An interesting thing that I noticed was that people subscribe and then stop using the product, without unsubscribing (I did have the unsubscribe button on the profile, no questions asked). I ended up manually cancelling a bunch of subscriptions on Stripe without updating the app DB, so people could still use the service (which they didn’t anyways).</p>
+<h1>In numbers</h1>
+<ul>
+<li>308 commits</li>
+<li>3,500 accounts created</li>
+<li>450,000 commands executed</li>
+<li>$300 total revenue</li>
+<li>$720 spent on hosting</li>
+</ul>
+<p>Screenshot, for posterity:</p>
+<p><img src="https://frantic.im/assets/octave.im/screenshot.png" alt="" /></p>
+
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <id>https://frantic.im/back-to-rails</id>
+      <title>Moving my serverless project to Ruby on Rails</title>
+      <updated>2020-11-14T12:00:00+00:00</updated>
+
+      <link rel="alternate" href="https://frantic.im/back-to-rails" />
+      <summary>Serverless is like a black hole. It promised exciting adventures, but the gravity sucked me in and I spend most of my efforts dealing with its complexity, instead of focusing on my product.</summary>
+      <content type="html"><![CDATA[
+        
+        
+        
+        <p>I have a small side project: <a href="https://hacker.gifts">digital gift cards for hackers</a>. It uses Shopify for all the store-related stuff: frontend, payments, refunds, reports, etc.</p>
+<p>But unlike regular digital products (ebooks, videos) I wanted each card that the user purchases from the store to be unique. So I made a  script that generates personalized images and ran it manually for every order.</p>
+<p>The next logical step was automating this process. I started with serverless AWS Lambda. At the time it was the hot new tech and I wanted to learn more. It seemed very fitting for my use-case: single-responsibility functions that can run at any time and don’t require server maintenance.</p>
+<p><img src="https://frantic.im/assets/back-to-rails/simple-lambda.png" alt="" /></p>
+<p>It was super easy to get started. I built a JavaScript function and deployed it to AWS Lambda, added Shopify web hook and it all worked!</p>
+<p>Early benefits of serverless (for hobby projects):</p>
+<ul>
+<li>Easy to get started</li>
+<li>Don’t have to configure or maintain servers</li>
+<li>Free for small loads</li>
+</ul>
+<p>In reality, writing the simple Lambda functions turned out to be only 10% of the work.</p>
+<p>Time passed and my backend started getting more complex: I needed to store some state for each <a href="https://hacker.gifts/products/space-invaders">puzzle</a>, send confirmation emails, show an order details page. What started as a simple function, grew into a bunch of serverless functions, SNS topics, S3 buckets, DynamoDB tables. All bound together with plenty of YAML glue, schema-less JSON objects passed around and random hardcoded configs in AWS console.</p>
+<p>I think it’s just a typical software development lifecycle: things grow organically, become a mess, and require some refactoring. Make it run first (discover market fit), then make it right (refactor to integrate the new discoveries).</p>
+<p>But this time it was different. I couldn’t refactor things as easily as I used to in traditional monolithic apps. Here’s why:</p>
+<p class="large">When the building blocks are too simple, the complexity moves into the interaction between the blocks.</p>
+<p>And the interactions between the serverless blocks happen <em>outside</em> my application. A lambda publishes a message to SNS, another one picks it up and writes something to DynamoDB, the third one takes that new record and sends an email…</p>
+<p>I could test every single block in that flow, but I didn’t have confidence in the overall process. What if publishing fails, how would I know that? How would system recover? Can I rollback and try again? Where do the logs go?</p>
+<p>Another swarm of problems was hiding in my configuration: bad Route 53 record, typos in SNS topics, wrong S3 bucket region. Tracing errors was a challenge, there’s no single log output I can look into.</p>
+<p class="large">With serverless, I was no longer dealing with my project's domain, I was dealing with the distributed system's domain.</p>
+<p>At this point I felt fooled.</p>
+<p>I came for the easy way to deploy code and not think about servers, but in the end had to design my system around the platform’s limitations.</p>
+<p>Drawbacks of serverless (for hobby projects):</p>
+<ul>
+<li>Hard to follow information flow</li>
+<li>Impossible to replicate production environment locally</li>
+<li>Slow iteration speed</li>
+<li>Lack of end-to-end testing</li>
+<li>Immature documentation (dominated by often outdated Medium posts)</li>
+<li>No conventions (have to make hundreds of unessential decisions)</li>
+</ul>
+<p>—</p>
+<p>I was clearly not enjoying the serverless. So I decided to rewrite it. After all, it is a side project I’m doing for fun. The tech stack of choice — Ruby on Rails.</p>
+<p>I haven’t used Rails since 2013, and for the last 8 years at Facebook I’ve been mostly doing JavaScript.</p>
+<p><img src="https://frantic.im/assets/back-to-rails/logo.jpg" alt="" /></p>
+<p>The experience of picking Rails back up was really nice but… uneventful. Not much had really changed. A few things got added, a few small things moved around.</p>
+<p>Of course I did <a href="https://github.com/rails/rails/issues/38060">hit some magical Ruby issues</a>. But unlike my typical experience with JavaScript, I was quickly able to find the solution.</p>
+<p>Rails comes with so many things built-in and configured. Over the years, without Rails, I used to gluing random JavaScript libraries together to roll my own routing, file storage wrappers, email preview pipeline, managing secrets, test setup with fixtures, database migrations, logging, performance reporting, deployment scripts. With Rails I didn’t have to think about all these details and could simply focus on making product-visible changes.</p>
+<p>It was like driving a Tesla after years of making my own scrappy cars. Similar components, but all configured and aligned to work well together.</p>
+<p>Benefits of Rails (for hobby projects):</p>
+<ul>
+<li>Conventions</li>
+<li>Tooling, libraries</li>
+<li>Documentation</li>
+<li>Monolith is easy to understand and test</li>
+</ul>
+<p>Drawbacks of Rails (for hobby projects):</p>
+<ul>
+<li>Feels heavyweight in the beginning</li>
+<li>Hurts if your opinions differ from Rails conventions</li>
+<li>Have to host on a server</li>
+<li>Doesn’t sound cool in 2020 (anymore and maybe yet)</li>
+</ul>
+<p>—</p>
+<p>Serverless is like a black hole. It promised exciting adventures, but gravity sucked me in and I spent most of my efforts dealing with its complexity, instead of focusing on my product.</p>
+
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <id>https://frantic.im/todo-for-robots</id>
+      <title>TODO apps are meant for robots</title>
+      <updated>2020-10-28T12:00:00+00:00</updated>
+
+      <link rel="alternate" href="https://frantic.im/todo-for-robots" />
+      <summary>What if I'm a left-handed person in the world of right-handed tools?</summary>
+      <content type="html"><![CDATA[
+        
+        
+        
+        <p>In my lifetime I’ve tried a dozen todo apps. In the beginning they all seem different, novel and special. Slick UI, shortcuts, tags, subtasks, the list goes on and on.</p>
+<p>But all our stories were the same: I start using the new app, then after awhile I stop using it.</p>
+<p>Up until the last week I thought the problem was in myself (you probably think so too). After all, <a href="https://gettingthingsdone.com/">David Allen</a> seems to have figured this shit out. Also there are people leaving long 5 star reviews on every major todo list app, they discuss them on forums, recommend them to friends.</p>
+<p>But then I read <a href="https://notes.andymatuschak.org/Close_open_loops?stackedNotes=z5tiFxnNKMZCnc8G9R1N51L5hknyRGmyCQx18&amp;stackedNotes=z8aZybuJJopS5fL7TnPou2JcmCsBUJeqirbBh&amp;stackedNotes=z5vXaKVAPBNKAAi9RXNudduhyGadGXqtMVTEs">Andy Matuschak’s notes</a>, and it really resonated with me. What if I’m a left-handed person in the world of right-handed tools? All popular todo apps out there have the same problems:</p>
+<br>
+<ol>
+<li>
+<p>Willpower needed to make decisions is a limited resource. And most TODO apps are lazy and don’t consider the impact on your willpower. You want to postpone a task? Please enter the exact date to postpone this to. Which project to add this to? Tags? Subtasks? The amount of things one can customize is really large, but making all this decisions has a cost.</p>
+</li>
+<li>
+<p>Long lists are overwhelming. TODO apps are all about lists. And these lists tend to get large when the tasks inflow exceeds the tasks outflow (i.e. every modern knowledge worker’s queue). Looking at the ever-growing list of things that need to get done is not inspiring to say the least. As the lists get longer, there’s less and less chance that anything from it will get done, which also decreases the motivation to look into these lists. Removing stuff without getting it done is also painful, it requires a complex emotional and rational decision to be made (see the point about the willpower above).</p>
+</li>
+<li>
+<p>Sense of accomplishment is important but rare in the digital world. When you mark a task as done in your TODO app, it just hides it. That’s it, no reward, no sense of accomplishment (unless you make your own). I think that’s why some people like Trello or pen-and-paper TODO list: when you get something done, you can see a card moved or a text crossed out. An artifact that proves there was a task here, and now it’s done. Now you are one step closer to your goal.</p>
+</li>
+<li>
+<p>We need to trust our systems. GTD works only when you follow the rules. If you let your inbox grow unbound, the whole point about GTD gets lost and you also start losing trust in GTD. Another negative feedback loop. I’ve never seen a TODO app that lets you recover from this downward spiral.</p>
+</li>
+<li>
+<p>Tasks are not the same. Get milk, write an essay, plan a vacation, reconnect with a friend. These are things of different magnitude, different emotional connection, different context and time commitment. Some tasks aren’t even tasks, e.g. simply items to keep track of or be reminded of. But TODO apps treat them the same. They get the similar looking rows neatly organized in a unified interface.</p>
+</li>
+<li>
+<p>Sometimes humans need help. A little nudge here and there can make a huge difference. It’s also very personal: different things work for different types of people. I’ve made a list of strategies to help me get things done, and ended up with 13 items (things like “extract the next smallest step as a separate task” or “work on it for just 2 minutes”). Thirteen! Guess how many nudges all my TODO apps have? Zero (except the deadline push notification reminder which just adds anxiety).</p>
+</li>
+<li>
+<p>Context is important. We are tired in the evening and have less willpower. <a href="https://www.youtube.com/watch?v=GmFwRkl-TTc">Getting a small task done first thing in the morning can boost our confidence and energy levels</a>. Work tasks are better be hidden during the weekend. Sophisticated TODO apps have the flexibility to do this, but they require a lot of investment in configuration</p>
+</li>
+</ol>
+<p>I now see all TODO apps as a shallow copy-pasta of the same rigid, inhuman, anxiety-inducing template.</p>
+<p>But there’s hope!</p>
+<p>In fact the advanced solution technology lies in the hands of productivity enemies: social media apps and games. Instagram, TikTok and Candy Crush have figured all this out. They know how to make you do something with very little willpower. They know how to present information in a way that’s not overwhelming. They give you rewards for doing things. Hints, nudges, suggestions.</p>
+<p>I think there’s plenty of room for TODO innovations.</p>
+<p>As for me – I’m not registering a domain name for a new pet project. Not yet :)</p>
+
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <id>https://frantic.im/remote-meetings</id>
+      <title>Optimize Your Meetings for Engagement</title>
+      <updated>2020-09-24T12:00:00+00:00</updated>
+
+      <link rel="alternate" href="https://frantic.im/remote-meetings" />
+      <summary>Imagine you meet a bunch of old friends that you haven’t seen in a while. Everybody’s sharing their stories, and everybody else is actively listening, asking questions, and are fully immersed.</summary>
+      <content type="html"><![CDATA[
+        
+        
+        
+        <p>— So, does anybody have any feedback? Or questions?</p>
+<p>Silence. 15 seconds feel like forever. I can’t tell by people’s expressions if they agree with what I have just presented. I know they must have things to say, why aren’t they speaking up?</p>
+<p>This was so much easier with in-person meetings. Remote sucks!</p>
+<h2>What if we just don’t know how to run remote meetings yet?</h2>
+<p>After months of attending large VC-only meetings I think I found a pattern. I’ve also talked to a few people who also noticed the same thing.</p>
+<p><strong>Failure modes:</strong></p>
+<ul>
+<li>The person leading the meeting is talking 90% of time, and because they don’t get much feedback they just continue to fill the silence with re-iterating their points.</li>
+<li>Nobody else is speaking up.</li>
+<li>Somebody’s speaking up but they focus on a minor detail and talk through it forever, nobody’s willing to stop them</li>
+<li>In the end everyone is frustrated, the meeting feels like a waste of time and feels like it could have been replaced by a group post.</li>
+</ul>
+<p>But not all meetings where like that. A few were actually really good.</p>
+<p><strong>Here’s the secret sauce:</strong></p>
+<blockquote>
+<p>In the current realities optimize your meetings for engagement</p>
+</blockquote>
+<p>By engagement I mean this — imagine you meet a bunch of old friends that you haven’t seen in a while. Everybody’s sharing their stories, and everybody else is actively listening, asking questions, and are fully immersed.</p>
+<p>Just imagine the things we could do if our remote meetings felt even remotely like that.</p>
+<p>First of all, it’s a mindset shift. Switch your strategy from just doing the meetings the way you did before COVID (or the way everybody else is doing it right now) to optimizing for the engagement, and wonderful things will happen.</p>
+<p>I think the solution has 3 key elements: organizational, human and technology.</p>
+<p><strong>Organizational:</strong></p>
+<ul>
+<li>Reserve 15 minutes in the beginning to warm up your group. Don’t do “let’s start with status update” — in my experience this tenses up the people involved and they mainly think about what they are going to say and are not listening / engaging. Instead, ask a question that encourages engagement (see next section).</li>
+<li>If your goal is to generate ideas or collect meaningful feedback, split the large group into several smaller groups (see <a href="http://www.theworldcafe.com/key-concepts-resources/world-cafe-method/">World Cafe Method</a>). 4 or 5 people in the meeting seem to be the maximum we can handle to keep the engagement high.</li>
+</ul>
+<p><strong>Human:</strong></p>
+<ul>
+<li>Ask and share personal bits of information, e.g. hobbies, silly facts, or opinions on things not related to work.</li>
+<li>Overuse non-verbal expressions: gestures, smiles, nodding, etc. This will help everyone else understand your reaction.</li>
+</ul>
+<p><strong>Technology:</strong></p>
+<ul>
+<li>Audio is extremely important. Low latency is a must to avoid people talking over each other.  The quality is very important too, good software I’ve used before doesn’t broadcast your audio until it detects speech.</li>
+<li>Provide tools that expand ways to communicate non-verbally: raising hand, reactions, polls, messages.</li>
+</ul>
+
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <id>https://frantic.im/no-strings</id>
+      <title>Things that are not strings</title>
+      <updated>2020-08-19T12:00:00+00:00</updated>
+
+      <link rel="alternate" href="https://frantic.im/no-strings" />
+      <summary>As programmers, we have a collective delusion that anything that can be represented as a string, is a string. This thinking causes a whole bunch of problems.</summary>
+      <content type="html"><![CDATA[
+        
+        
+        
+        <p>As programmers, we have a collective delusion that anything that can be represented as a string, is a string. This thinking causes a whole bunch of problems.</p>
+<p>Let’s take SQL for example. Every API in every programming language that I’ve seen considers SQL statement a string.</p>
+<pre><code>function execute(sql: string): Promise&lt;Result&gt;
+</code></pre>
+<p>The problem with this API is that not every string is a valid SQL (nor sometimes it is the SQL you actually want to run).</p>
+<p>Here’s a classic example of the misuse:</p>
+<pre><code>const query = 'SELECT * FROM posts WHERE id = '
+  + params.id;
+</code></pre>
+<p>In this example <code>params.id</code> can be anything, including invalid or malicious SQL.</p>
+<p>The root problem here is not the lack of sanitization. The problem is that SQL is treated as a string.</p>
+<p>Think about JSON for another example. You could certainly implement adding an item to a hash by doing this (I hope this code makes you cringe):</p>
+<pre><code>function addKeyValue(json, key, value) {
+  return json.substr(0, json.length - 1)
+    + ', &quot;' + key + '&quot;: &quot;' + value + '&quot;}';
+}
+</code></pre>
+<p>As with the SQL example, you could add escaping and sanitization, but it’s just hacks hiding the real problem:</p>
+<p><em>A string can be a representation of a thing, but it’s not the thing itself.</em></p>
+<p>And it’s not only about concatenating strings. Can you spot the problem with this function? <span class="hint" onclick="event.target.innerText = 'This URL will be marked as safe by the code below https://evil.com/https://safe.com/'">(see answer)</span></p>
+<pre><code>function isSafeDomain(url: string): boolean {
+  return url.includes('https://safe.com/');
+}
+</code></pre>
+<p>Or in this one? <span class="hint" onclick="event.target.innerText = 'This code is prone to timing attacks'">(see answer)</span></p>
+<pre><code>function checkPassword(pass: string, hash: string): boolean {
+  return sha1(pass) === hash;
+}
+</code></pre>
+<p>Strings are lower level, and thus are much more flexible than they need to be to properly implement valid operations on the higher level concepts.</p>
+<p>Incomplete list of things that are not strings:</p>
+<ul>
+<li>SQL</li>
+<li>HTML</li>
+<li>JSON</li>
+<li>URL</li>
+<li>File path</li>
+<li>Password</li>
+</ul>
+<h2>Things are… things</h2>
+<p>You can save yourself a lot of headache if you stop treating everything that can be represented as a string, as a string.</p>
+<p>Both OO and FP styles allow for abstracting away something as a type or a class. You can make a closed opaque structure for the thing and limit the ways it can be constructed.</p>
+<p>For example, for SQL, you might want to make sure it’s only created from static string literals.</p>
+<pre><code>// Allowed
+new SQL('SELECT * FROM posts WHERE id = ?');
+
+// No allowed (e.g. via a lint rule)
+new SQL('SELECT * FROM posts' + filter);
+</code></pre>
+<p>Of course, at some point, you will need to serialize the thing into a string to pass it into an API that was designed to consume a string. Do it at the last possible moment and try to limit it to a single place in the codebase.</p>
+<pre><code>function execute(sql: SQL): Promise&lt;Result&gt; {
+  return unsafeExecute(sql.toString());
+}
+</code></pre>
+<p>Strings are coming into your app from the outer world. Don’t trust them to be what they seem they are. Convert them into proper things as soon as possible, and convert them back to strings as late as possible.</p>
+<p>Here’s a few libraries for inspiration of how to treat things as… things:</p>
+<ul>
+<li>SQL: <a href="https://github.com/gajus/slonik">Slonik</a>, <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/basic-linq-query-operations">LINQ</a></li>
+<li>HTML: React, Elm, <a href="https://github.com/tonsky/rum">rum</a></li>
+<li>JSON: a dictionary in any programming language</li>
+<li>URL: <a href="https://docs.rs/url/2.1.1/url/">url - Rust</a></li>
+<li>File paths: <a href="https://doc.rust-lang.org/std/path/struct.Path.html">std::path::Path - Rust</a></li>
+<li>Passwords: <a href="https://github.com/myfreeweb/secstr">secstr</a>, <a href="https://hackage.haskell.org/package/securemem">securemem</a></li>
+</ul>
+
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <id>https://frantic.im/project-todo</id>
+      <title>TODO file for personal projects</title>
+      <updated>2020-04-13T12:00:00+00:00</updated>
+
+      <link rel="alternate" href="https://frantic.im/project-todo" />
+      <summary>In most of my personal projects I have a file called TODO. I use it like this…</summary>
+      <content type="html"><![CDATA[
+        
+        
+        
+        <p>If you know me, you know that I’m not a very organized person. I hate rigid productivity systems. I’ve tried many things: Trello, Things, Github Issues, Pivotal Tracker, etc. But they all end up in the same state — detached from the real work I’m doing.</p>
+<p>Here’s what worked for me.</p>
+<p>In most of my personal projects I have a file called <strong>TODO</strong>. I use it like this.</p>
+<p>When I have an idea about a feature or a bug, I just open the TODO file (Cmd+P → TODO → Enter), go to the end (Cmd+↓) and start typing.</p>
+<p>If I’m away from my computer, I’ll use <a href="https://culturedcode.com/things/">Things</a> to capture the ideas and then move the to the TODO file.</p>
+<p>My TODO file captures a whole bunch of things related to the project. I don’t have to actually do anything about these things at the moment, just capture items in my backlog.</p>
+<p>Later on, when I have time to reflect on the progress, I plan a new milestone from the backlog.</p>
+<p>A milestone is just a section in the TODO file that looks like this</p>
+<pre><code>## v1.5 Polished in-game UI
+
+The game screen looks tidy and clean, the player should
+be able to figure out what state the game is in and what
+should happen next. No new features!
+</code></pre>
+<p>A milestone has a title and a short description. The text describes the desired outcome, not how to get there. This that helps me narrow down my focus.</p>
+<p>I force myself to have only one milestone active at a time. All random items I want to do go to the Backlog section first.</p>
+<p>I add milestones in the reverse order, the newest one is always at the top. This way when I open the file I see the most important thing first. Also I can still use the append workflow to add items to my backlog (which is always at the end).</p>
+<p>Inside each milestone I have a bunch of todos, they look like this:</p>
+<pre><code>[ ] *•• Display user avatars
+</code></pre>
+<p>The first pair of square brackets is a “checkbox”. I don’t remove items when they are done, instead I put “x” into the space between square brackets.</p>
+<p>Then goes the estimate of how much effort I think the task will take. The scale is logarithmic: one star for simple straightforward tasks, two for cross-file change or little refactoring, three for a task that will take me a couple of hours. If the task needs four stars, I should break it down.</p>
+<p>To make text of the todos align nicely, I prepend a corresponding number of dots or spaces.</p>
+<p>Here’s what it looks like in one of the projects I work on:</p>
+<p><img src="https://frantic.im/assets/project-todo/TODO_file.png" alt="" /></p>
+<h2>Why does this work for me?</h2>
+<ol>
+<li>There’s no context switch. TODO file is much faster to open than any external tool I’ve used, and all my editor shortcuts just work there the same way they work in my code.</li>
+<li>Gives me sense of progress. As I mentioned earlier, I don’t delete done items, they just get a nice X next to them</li>
+<li>The history is maintained with the project via the same source control. I can blame the file and see what I did when.</li>
+<li>When I’m about to commit something, the message is ready (I just copy-paste the TODO line)</li>
+<li>It’s better than inlined // TODO comments because I can organize my file the way I want. Also different editors have different plugins for this, and I don’t want to depend on a concrete IDE plugin for this.</li>
+</ol>
+<h2>When does it not work?</h2>
+<p>For one, sometimes I just want to explore and have fun. I don’t have a TODO item for that, and I let myself poke and learn new things in unstructured way.</p>
+<p>I’ve also noticed that the milestones don’t work for me when I keep adding new items to the milestone I’ve already started. I’m still trying to get better at this.</p>
+
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <id>https://frantic.im/no-internet</id>
+      <title>Debugging home internet connection</title>
+      <updated>2020-03-16T12:00:00+00:00</updated>
+
+      <link rel="alternate" href="https://frantic.im/no-internet" />
+      <summary>Overengineered way of measuring your internet connectivity.</summary>
+      <content type="html"><![CDATA[
+        
+        
+        
+        <p>Having spotty internet connection is worse than having no internet at all.</p>
+<p>In the apartment we are living now the internet is great 95% of the time. The remaining 5% were annoying enough to get serious about fixing the problem.</p>
+<p>I should note that I’m a noob when it comes to networks. In retrospect I should have figured it out sooner. But it was a fun yak shaving expedition I want to share with you.</p>
+<h2>Step 1: Understand the problem</h2>
+<p>The symptom was the same: at random times the internet connection would just disappear. WiFi signal was strong, but no traffic is getting through.</p>
+<p>We called ISP but got nothing useful: they said metrics on their end looked good, no disruptions in service.</p>
+<p>I needed a way to prove that something was wrong.</p>
+<p>I built a script that every 5 minutes downloaded a 25MB file and recorded what the download speed was. It also logged errors. Finally I could put the Raspberry Pi I had for a good use!</p>
+<pre><code class="language-bash"><span class="hljs-meta">#!/bin/bash</span>
+
+url=<span class="hljs-string">&quot;https://speedtest....:8080/download?nocache=...&quot;</span>
+speed=$(curl -Lo /dev/null -skw <span class="hljs-string">&quot;%{speed_download}&quot;</span> <span class="hljs-variable">$url</span>)
+
+<span class="hljs-keyword">if</span> [ $? -eq 0 ]
+<span class="hljs-keyword">then</span>
+  <span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;Speed: <span class="hljs-variable">$speed</span>&quot;</span> &gt;&gt; /var/<span class="hljs-built_in">log</span>/dload.txt
+<span class="hljs-keyword">else</span>
+  <span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;Error&quot;</span> &gt;&gt; /var/<span class="hljs-built_in">log</span>/dload.txt
+<span class="hljs-keyword">fi</span>
+</code></pre>
+<p>I’ve added the script to crontab:</p>
+<pre><code class="language-bash">$ crontab -e
+
+*/5 * * * * /home/pi/inet/dload.sh
+</code></pre>
+<p>Unfortunately, first half hour of running this didn’t reveal any problems (except underwhelming connection speed). I’ve decided to up my game a little and use production grade tools.</p>
+<h2>Installing and configuring Grafana</h2>
+<p>I always wanted to learn more about <a href="https://grafana.com/">Grafana</a>, and this sounded like a perfect opportunity. I thought plotting the results of the download script would help me investigate the problem.</p>
+<p>I’ll skip the part where I tried different backends for storing the data. I didn’t care much about any particular solution, just needed something basic to store enough data to plot a simple bar chart. However, every tool tries to sell itself as enterprise level, high scale, etc. and comes with five million services that make up an advanced distributed architecture.</p>
+<p>In the end I settled with influxdb (1.x branch because 2.x didn’t have binaries for armv7l)</p>
+<pre><code class="language-bash">$ <span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;deb https://packages.grafana.com/oss/deb stable main&quot;</span> | sudo tee -a /etc/apt/sources.list.d/grafana.list
+$ <span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;deb https://repos.influxdata.com/debian <span class="hljs-subst">$(lsb_release -cs)</span> stable&quot;</span> | sudo tee /etc/apt/sources.list.d/influxdb.list
+$ wget -qO - https://packages.grafana.com/gpg.key | sudo apt-key add -
+$ wget -qO - https://repos.influxdata.com/influxdb.key | sudo apt-key add -
+$ sudo apt update
+$ sudo apt install grafana influxdb
+$ sudo systemctl daemon-reload
+$ sudo systemctl unmask influxdb.service
+$ sudo systemctl <span class="hljs-built_in">enable</span> grafana-server.service
+$ sudo systemctl start grafana-server
+$ sudo systemctl start influxdb
+</code></pre>
+<p>I confirmed Grafana worked on 192.168.1.XXX:3000 and that it could connect to the local Influxdb instance.</p>
+<p>Logging data to Influxdb was pretty easy, it’s just a POST request to its built in HTTP server. When we log the data, Influx requires a table name, list of 0 or more key-value pairs (tags) and list of 1 or more values. We could also give it a timestamp, but skipping it just uses the event’s time of arrival.</p>
+<p><code>bashtable,tag1=foo,tag2=bar value=42</code></p>
+<p>With this, I had to change the download script to log proper events to influx:</p>
+<pre><code class="language-bash"><span class="hljs-keyword">if</span> [ $? -eq 0 ]
+<span class="hljs-keyword">then</span>
+  curl -XPOST <span class="hljs-string">&#x27;http://localhost:8086/write?db=inet&#x27;</span> --data-binary <span class="hljs-string">&quot;speed dl_bps=<span class="hljs-variable">${speed}</span>&quot;</span>
+<span class="hljs-keyword">else</span>
+  curl -XPOST <span class="hljs-string">&#x27;http://localhost:8086/write?db=inet&#x27;</span> --data-binary <span class="hljs-string">&quot;error value=1&quot;</span>
+<span class="hljs-keyword">fi</span>
+</code></pre>
+<p>Note that I used a different event name for errors, this is to make it easier to plot them on the graph (zero or negative values did make the graph look less pretty and messed with things like average/p90 speed calculations).</p>
+<p><img src="https://frantic.im/assets/no-internet/Grafana-Query2.png" alt="" /></p>
+<p>This is the query in Grafana. Few things to note here:</p>
+<ul>
+<li>I used <code>math (* 8)</code> operation to get //bits per second//, since that’s how ISP refers to the value</li>
+<li>The errors are plotted as a different graph. From the download script you can see that error value can only be 1, I had to tell Grafana to use a different Y axis</li>
+</ul>
+<p><img src="https://frantic.im/assets/no-internet/Different-Y-Axis.png" alt="" /></p>
+<p>After letting this script run for a while, here are the results:</p>
+<p><img src="https://frantic.im/assets/no-internet/Bingo.png" alt="" /></p>
+<p>Clearly something is not right. I called ISP again and gave them more info, time frames, etc. They still played innocent.</p>
+<h2>Looking at the hardware</h2>
+<p>To my surprise, the WiFi I was testing this on was served by an additional router that’s closer to the living rooms. I traced found the “main” switch that this router was connected to and plugged in my Raspberry Pi directly via ethernet port. The results were almost perfect:</p>
+<p><img src="https://frantic.im/assets/no-internet/Perfect.png" alt="" /></p>
+<p>D’oh! I should have started from this, and saved myself a lot of time.</p>
+<p>I upgraded the in-room router (802.11g → 802.11n) and reconfigured it to be <a href="https://openwrt.org/docs/guide-user/network/wifi/dumbap">a dumb access point</a>. My WiFi problem was fixed.</p>
+<p>Since I went this far, I figured I’d make this dashboard thing even better.</p>
+<h2>Making dashboard even better</h2>
+<p>The main router has a web-based UI. It’s not a very pretty one, but it’s definitely workable. It has all this useful info, like total bytes sent/received, info about clients, etc.</p>
+<p><img src="https://frantic.im/assets/no-internet/Router-Web-UI.png" alt="" /></p>
+<p>Old school Web UI with HTTP basic auth</p>
+<p>We are all spoiled by REST and Graphql APIs these days, but the web of the past had its own charm. It was so simple.</p>
+<p>Here’s what’s going on when I click “Refresh” stats button:</p>
+<p><img src="https://frantic.im/assets/no-internet/Router-Request.png" alt="" /></p>
+<p>Chrome DevTools has a feature that allows you to copy the request as curl command</p>
+<p>Glueing a few curls and greps together, I came up with this. It works, but after figuring out how to turn something into an array in Bash I wished I’d just went with Python.</p>
+<pre><code class="language-bash"><span class="hljs-meta">#!/bin/bash</span>
+
+ROW=$(curl -sS <span class="hljs-string">&#x27;http://192.168.1.1/userRpm/StatusRpm.htm&#x27;</span> -H <span class="hljs-string">&#x27;Authorization: Basic aHR0cHM6Ly9jdXR0Lmx5L3Z0aG1TaGE=&#x27;</span> -H <span class="hljs-string">&#x27;Accept: text/html&#x27;</span> | grep <span class="hljs-string">&#x27;var statistList = new Array&#x27;</span> -A 1 | tail -n 1)
+
+IFS=<span class="hljs-string">&#x27;, &#x27;</span> <span class="hljs-built_in">read</span> -r -a stats &lt;&lt;&lt; <span class="hljs-string">&quot;<span class="hljs-variable">$ROW</span>&quot;</span>
+curl -XPOST <span class="hljs-string">&#x27;http://localhost:8086/write?db=inet&#x27;</span> --data-binary <span class="hljs-string">&quot;router_stats bytes_received=<span class="hljs-variable">${stats[0]}</span>,bytes_sent=<span class="hljs-variable">${stats[1]}</span>,packets_received=<span class="hljs-variable">${stats[2]}</span>,packets_sent=<span class="hljs-variable">${stats[3]}</span>&quot;</span>
+</code></pre>
+<p>Note that the router doesn’t give me the speed, just the total bytes. Fortunately, Grafana can take a derivative, of that value, giving me approximate speed at a point in time:</p>
+<p><img src="https://frantic.im/assets/no-internet/Screen-Shot-2020-03-16-at-8.31.02-AM.png" alt="" /></p>
+<p>I did the same for per device stats page, ping and a few other things.</p>
+<p>Currently, the end results looks like this:
+<img src="https://frantic.im/assets/no-internet/Dashboard.png" alt="" /></p>
+
+      ]]></content>
+    </entry>
+  
+    <entry>
+      <id>https://frantic.im/explain-programming</id>
+      <title>Reconsidering the way I explain programming</title>
+      <updated>2020-03-12T12:00:00+00:00</updated>
+
+      <link rel="alternate" href="https://frantic.im/explain-programming" />
+      <summary>Successful communication is so much about understanding the context and the people on the receiving end</summary>
+      <content type="html"><![CDATA[
+        
+        
+        
+        <p>“Do you know a recipe for a recursive salad?” - I asked. “It consists of tomatoes, olives and a recursive salad”.</p>
+<p>My joke falls flat. Michael’s eyes confused and waiting for the explanation. I regroup and try a different strategy - sketching:</p>
+<p><img src="https://frantic.im/assets/explain-programming/recursion-1.png" alt="" /></p>
+<p><small>One of my failed attempts at explaining recursion</small></p>
+<p>—</p>
+<p>I’ve explained a lot of programming concepts to different people. From high school students who are just getting started, to experienced engineers who are quickly diving into a new programming language.</p>
+<p>I used to take a lot of pride in the clever explanations I used to come up with. “Your UI is just a function of state”, “the closure hugs your variables in scope”, “Prolog function arguments can be in or out”. I also loved the visuals, formatting code and showing clever animations.</p>
+<p>But many times the people on the receiving end would not be as excited. I thought my delivery was poor.</p>
+<p>Now after so many years, it finally hit me.</p>
+<p>Programming is complex and abstract. Like advanced math, it’s removed from everyday things we deal with normally. What I was describing was only <em>my</em> mental model. Words, pictures and a lot of hand-waving is the way I internalized these abstract concepts.</p>
+<p>Unfortunately, understanding them is not enough to explain them.</p>
+<p>Andy Matuschak recently had a <a href="https://andymatuschak.org/books/">beautiful piece</a> on the status quo format of lectures:</p>
+<blockquote>
+<p>“the lecturer says words describing an idea; the class hears the words and maybe scribbles in a notebook; then the class understands the idea.” In learning sciences, we call this model “transmissionism.” It’s the notion that knowledge can be directly transmitted from teacher to student, like transcribing text from one page onto another. If only! The idea is so thoroughly discredited that “transmissionism” is only used pejoratively, in reference to naive historical teaching practices. Or as an ad-hominem in juicy academic spats.</p>
+</blockquote>
+<p>All my “perfect” models were beautiful only in my head. They did strike a chord with others, sometimes, but it was sheer luck - their intuition was in tune with mine for that particular problem.</p>
+<h1>So what do I do differently now?</h1>
+<h2>Listen very carefully</h2>
+<p>First, I try to listen very carefully to their question. If they are not talking much I’ll ask questions and keep listening. I’ll keep notes on how they explain themselves:</p>
+<ol>
+<li>What names do they use to refer to abstract concepts? I’ll try to use the same.</li>
+<li>What kind of <a href="https://www.nlpworld.co.uk/nlp-glossary/m/modalities/">modality</a> do they operate in? Do they “see” things or “listen” to them?</li>
+<li>How deep do they need to go? Just fix something and move on, or trying to understand it on a more fundamental level?</li>
+</ol>
+<h2>Operate within their mental model</h2>
+<p>Second, I resist the urge to explain it exactly how I understand it. I try to accept their mental model of the world, even if I believe it’s not super accurate. As long as it’s not hurting their understanding, I’m willing to skip over non-essential bits.</p>
+<p>I also adopt their language and use the same names in my examples.</p>
+<h2>Let them explore</h2>
+<p>If the environment allows for it, I’ll encourage them to use the debugger, logs or experiment with the code. For this to work, sometimes I need to reduce the problem space to a much smaller one.</p>
+<p>They key is to let them poke the real world (in this case, the way the compiler or the programming language runtime works) and tune their own model. The goal is to help them develop their own intuition, instead of conveying my own.</p>
+<p>This can be generalized: successful communication is so much about understanding the context and the people on the receiving end.</p>
+<p>—</p>
+<p>Back to Michael. I showed him the IntelliJ debugger and asked to trace a very simple recursive program he wrote.</p>
+<p>“So it’s like the staircase!”, he exclaimed. “Every time we go in is like taking a step, and then we return all the way down”. Well, I guess <em>it is</em> kind of like staircase… I never thought about recursion this way myself. Now I think I can explain tail call optimization via an escalator analogy.</p>
+<p><img src="https://frantic.im/assets/explain-programming/recursion-2.png" alt="" />
+<small>This is not the model I had in my mind, but I’ll definitely use it in the future</small></p>
+
+      ]]></content>
+    </entry>
+  
+</feed>

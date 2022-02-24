@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=640" />
+
+    <title>Good errors leave trace / frantic.im</title>
+    <meta name="author" content="Alex Kotliarskyi">
+    <meta name="description" content="Errors with extra informaton can help locate and fix the problems faster.">
+
+    <link rel="canonical" href="https://frantic.im/good-errors-leave-trace">
+    <link rel="alternate" type="application/rss+xml" title="frantic.im" href="https://frantic.im/feed.xml">
+
+    <meta property="og:title" content="Good errors leave trace">
+    <meta property="og:image" content="https://frantic.im">
+    <meta name="og:description" content="Errors with extra informaton can help locate and fix the problems faster.">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@alex_frantic">
+    <meta name="twitter:creator" content="@alex_frantic">
+    <meta name="twitter:title" content="Good errors leave trace">
+    <meta name="twitter:description" content="Errors with extra informaton can help locate and fix the problems faster.">
+    <meta name="twitter:image" content="https://frantic.im">
+
+    <link id="favicon" rel="icon" type="image/png" href="/favicon.png">
+    <script>
+      if ('ethereum' in window) {
+        document.getElementById('favicon').href = '/assets/favicon-hex.png';
+      }
+    </script>
+
+    <style type="text/css" media="screen">
+      * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@font-face { font-family: 'body';                     src: url('/fonts/IBMPlexSans-Text.woff') format('woff'); }
+@font-face { font-family: 'body'; font-style: italic; src: url('/fonts/IBMPlexSans-TextItalic.woff') format('woff'); }
+@font-face { font-family: 'body'; font-weight: 800;   src: url('/fonts/IBMPlexSans-Bold.woff') format('woff'); }
+
+@font-face { font-family: 'mono';                     src: url('/fonts/IBMPlexMono-Text-Latin1.woff') format('woff'); }
+
+body { font: 18px/28px body, sans-serif; }
+pre, code { font-family: mono, monospace; }
+
+body {
+  background-color: #FFF;
+  color: #000;
+  -webkit-font-feature-settings: "kern" 1,"liga" 1,"calt" 1;
+  -moz-font-feature-settings: "kern" 1,"liga" 1,"calt" 1;
+  font-feature-settings: "kern" 1,"liga" 1,"calt" 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  margin: 50px auto;
+}
+.page { width: 600px; margin: 0 auto; padding: 0 0 0 2px; }
+.page_wide { width: 810px; }
+
+.menu { width: 544px; margin: 0 auto 0; padding: 0 0 50px 0; vertical-align: top; }
+.menu > li { list-style: none; display: inline-block; margin: 0 1.5em 0 0; vertical-align: top; }
+.menu__item, a.menu__item { color: #00000050; border-color: transparent; display: inline-block; }
+.menu__item_selected,
+a.menu__item_selected,
+a.menu__item:hover { color: #000; border-bottom: 2px solid #000; }
+.menu__item_inside, a.menu__item_inside { border-bottom: 2px solid #00000030; }
+
+article { width: 544px; margin: 15px auto; }
+
+a { color: inherit; text-decoration: none; border-bottom: 2px solid #00000030; }
+a:hover { border-color: currentColor; }
+p, blockquote { margin: 15px 0; }
+h1 + p + blockquote { margin-bottom: 30px; margin-right: 1em; }
+blockquote { padding-left: 1em; color: #00000090; }
+blockquote::before {content: "> "; float: left; margin: 0 0 0 -1em; }
+
+.quote-author { text-align: right; font-size: 15px; }
+strong { font-weight: 600; }
+h1, h2 { margin: 2.5em 0 0.5em; }
+h1 { font-size: 1.7em; }
+h2 { font-size: 1.4em; }
+.title { font-size: 2.5em; line-height: 50px; margin: 1.5em 0 0.75em 0; }
+
+p > img, .fig, figure { margin: 2em 0; }
+img { max-width: 100%; }
+
+.fig, figure { text-align: center; font-size: 12px; line-height: 20px; font-style: italic; width: 600px; margin-left: -28px; margin-right: -28px; }
+.fig img, figure > img, figure > video, figure > a > img { margin: 0 auto 1em; display: block; border-radius: 3px; }
+figure > video { max-width: 100%; }
+.label { text-align: center; font-size: 12px; font-style: italic; margin: -1em 0 1em 0; }
+
+code { font-style: normal; background: #00000010; padding: 2px 6px; border-radius: 4px; font-size: 17px; white-space: nowrap; }
+pre { font-size: 16px;
+      background: #00000010;
+      padding: 16px 30px 14px;
+      margin: 1em -30px;
+      border-radius: 8px;
+      white-space: pre;
+      word-wrap: break-word;
+      font-style: normal;
+      overflow-x: auto; }
+pre > code { background: none; padding: 0; font-size: inherit; white-space: unset; }
+
+ul { padding: 0 0 0 1em; list-style-type: square; }
+ul > li, ol > li { margin: 0.5em 0; }
+
+sup, sub, .note-ref, .note-number, .footnote { vertical-align: baseline; position: relative; font-size: .7em; line-height: 1; }
+sup, .note-ref, .note-number, .footnote { bottom: 1.4ex; }
+sub { top: .5ex; }
+
+.about { margin: 60px 0;}
+.about_photo { float: left; width: 100px; height: 160px; margin-left: -150px; margin-top: -10px; background: url("/photo.png"); background-size: 200px; }
+.about_photo:hover { background-position: 100%; }
+.about_inner { font-size: 16px; line-height: 24px; border: 2px solid #00000030; border-radius: 4px; padding: 10px 20px; margin: -12px -22px; }
+.about_inner > p { margin: 0; }
+.about_inner > p:not(:last-child) { margin-bottom: 8px; }
+.btn-subscribe { line-height: 20px; text-decoration: none; background: #00000015; border: none; font-size: 12px; padding: 0px 7px; display: inline-block; border-radius: 4px; position: relative; top: -1px; }
+.btn-subscribe:hover { background: #00000030; }
+.btn-subscribe > svg { width: 21px; height: 21px; vertical-align: bottom; margin: 0 -2px 0 -5px; }
+
+.footnote { margin: 0 5px;  }
+.footnotes-br { width: 100px; height: 2px; background: #000000; margin-top: 5em; }
+.footnotes, .footnotes_alt { padding-left: 1em;  }
+.footnotes_alt > li > .dagger { margin-left: -13px; }
+.footnotes_alt { list-style: none; } 
+
+.notes { font-size: 0.8em; }
+.note-number { margin-left: -1em; }
+
+.date { color: #00000090; font-size: 14px; margin-left: 4px; }
+
+footer { color: #00000090; }
+footer { font-size: 16px; margin-bottom: 5em; }
+footer > .separator { margin: 0 4px; }
+footer > a { margin-right: 5px; }
+footer > a:hover { color: #000; }
+
+/* syntax */
+.highlight .kd, .highlight .k {font-weight: bold; }
+.highlight .mi { color: blue; }
+.highlight .cm { color: grey; }
+
+.hljs-built_in, .hljs-keyword {font-weight: bold; }
+.hljs-string, hljs-number { color: blue; }
+.hljs-comment { color: grey; }
+      
+    </style>
+  </head>
+
+  <body>
+    <ul class="menu">
+  
+  <li>
+    <a class="menu__item " style="" href="/blog/">
+      Blog
+    </a>
+  </li>
+  
+  <li>
+    <a class="menu__item " style="" href="/talks/">
+      Talks
+    </a>
+  </li>
+  
+  <li>
+    <a class="menu__item " style="" href="/projects/">
+      Projects
+    </a>
+  </li>
+  
+  <li>
+    <a class="menu__item " style="" href="/about/">
+      About
+    </a>
+  </li>
+  
+</ul>
+
+
+<article>
+  <header>
+    
+    <h1 class="title">Good errors leave trace</h1>
+  </header>
+  <p>The value of an error is in the information it carries. Bad errors carry very little information, good errors provide enough to know what went wrong and how to fix it.</p>
+<p>Errors are usually classified by:</p>
+<ul>
+<li>target audience: made for developers or users</li>
+<li>severity: from minor to critical</li>
+<li>outcome: recoverable and non-recoverable</li>
+</ul>
+<p>But let’s try organizing errors <em>by the amount of information they contain</em>. Hopefully this way will open another dimension for you to reason about your code.</p>
+<p><strong>Level 0. No information at all</strong>. Errors are least useful when they are completely silenced and the only way to detect them is to notice that something else is broken.</p>
+<p><strong>Level 1. Information that fits one bit</strong>. At the very extreme end of information there are errors that only report their existence, providing no additional information whatsoever. For example, an API that returns <code>false</code> when it fails or a unix command that returns non-zero exit code without printing anything. While not extremely helpful, it’s still much better than nothing.</p>
+<p><strong>Level 2. Error with a message</strong>. Having a good error message is the simplest and most efficient way to add value. Unique error messages are great because they can be traced back to the source code. <code>git grep</code> (or similar) can be used to locate the code that throws the error even if the stack trace is not available.</p>
+<p>It’s also helpful for people who are not directly working on the project’s source code (library users, your app’s users, etc.). They can search online for “[app/library][error message]” and find some useful information, like a GitHub issue or a StackOverflow answer.</p>
+<p>There is a temptation to include instructions about how to solve the problem into the error message. But don’t try to make error messages too smart. In fact, the code that throws the error by definition doesn’t know how to fix it and by design has very little context on what’s going on.</p>
+<p><strong>Level 3. Stack trace</strong>. When developing a software product, the stack trace is the second most useful piece of data. Almost all scripting languages are great examples of how this is helpful – they print the stack trace right after the error message. It’s also easy to collect this information from the scripting environment itself. On the other hand, compiled languages make it much harder to extract the stack trace.</p>
+<p>In some cases conventional stack traces are not very useful. For example, when dealing with asynchronous Promise-based code in JavaScript, the stack trace doesn’t include pointers to the code that caused the problem. Fortunately, modern developer tools can keep track of function calls across async call boundaries.</p>
+<p><strong>Level 4. Context</strong>. While the stack trace tells us “where” and “how” the error occurred, it doesn’t help much with “why”. We need the content of the scope chain – the values of the variables and arguments at the time the error occurred. However, it’s hard to include them into a crash report because they can be too big and the data needs to be serialized.</p>
+<p>It’s good when errors include some additional context information. For example, “Index out of bounds” is not super helpful, however “Index -1 is out of bounds” is a bit better.</p>
+<p><strong>Level 5. Environment</strong>. Errors can also include some extra information about the environment where the error has occurred. This information, when logged and aggregated and can be used to pinpoint the error’s source.</p>
+<p>For example, for massive scale backend systems it’s almost impossible to look at an error reported by one of hundreds of services and figure out what went wrong. To help pinpoint the cause, it’s a good idea to log a lot of additional information with the crash report and then aggregate and display that information. For example, server OS version, service version, arguments, queries per second, memory and CPU utilization, free disk space, active thread etc.</p>
+<h2>Errors while reporting errors</h2>
+<p>The nastiest errors happen during error reporting.</p>
+<p>When error reporting code tries to be smart and has untrivial amounts of logic, it will inevitably have bugs on its own. Erros while reporting error are the worst, because they usually hide the original cause.</p>
+<p>Unfortunately they are easy to miss too, because the error path is not usually the common path. The error reporting code gets less coverage in terms of automated and manual tests.</p>
+<p>However, a few languages do have good tools to help with this case – Chained Exceptions. For example, when an exception is thrown when processing another exception, <a href="https://docs.oracle.com/javase/tutorial/essential/exceptions/chained.html">Java</a> and <a href="https://www.python.org/dev/peps/pep-3134/">Python 3</a> will report both original and new errors:</p>
+<pre><code>Traceback (most recent call last):
+  File &quot;test.py&quot;, line 11, in &lt;module&gt;
+    baz()
+  File &quot;test.py&quot;, line 8, in baz
+    bar()
+  File &quot;test.py&quot;, line 5, in bar
+    foo()
+  File &quot;test.py&quot;, line 2, in foo
+    raise Exception('Original problem')
+Exception: Original problem
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File &quot;test.py&quot;, line 13, in &lt;module&gt;
+    raise Exception('Error while reporting error') from e
+Exception: Error while reporting error
+</code></pre>
+<h2>Performance</h2>
+<p>Be aware of the perf cost of including additional information. In particular, often times the error message is formated using some kind of <code>sprintf</code> function. Make sure the error message is prepared only when the error has actually been triggered. We had this funny bug in React Native in the early days:</p>
+<pre><code>invariant(
+  VALID[name],
+  'Bad style name ' + name + '. Valid styles: ' + JSON.stringify(VALID)
+);
+</code></pre>
+<p>As you can see, the error message argument string is computed every time before the function call, even when the invarian doesn’t fire.</p>
+<h2>Errors visibility</h2>
+<p>Depending on severity and environment, error can be silenced completely or very loud.</p>
+<p>In React Native, for example, we make development errors very visible and actionable information when possible. There are systems out there that do even better! Ruby on Rails has a plugin called <a href="https://github.com/charliesome/better_errors">better_errors</a> that can show a helpful webpage with stack trace, source code and REPL. It’s one of the best error UX I’ve seen.</p>
+<p>In some cases to get the details about a crash one needs to use special tools that recover core dumps and do symbolication. This makes it harder to get to the cause, especially if you are not familiar with the system.</p>
+<p>That’s why the solutions that make error details visible and/or jump into the debugger are very nice. E.g. Chrome devtools, Visual Studio and any other IDE that runs the code under the debugger. Obviously this is not helpful in production.</p>
+<p>Takeaways:</p>
+<ol>
+<li>Choose unique and helpful error messages</li>
+<li>Include more information about which piece of data was wrong</li>
+<li>But don’t try to be too clever about the advice above, its will lead to even worse errors.</li>
+<li>Make sure your <a href="/test-plan">Test Plan</a> includes code path that triggers errors.</li>
+</ol>
+<p>Errors are tools. Use them.</p>
+
+  <footer>
+    <time datetime="2017-01-18T12:00:00+00:00">Jan 18, 2017</time>
+  </footer>
+  
+
+
+
+
+
+
+  <h4>Related posts:</h4>
+  
+
+  
+
+    
+
+    
+
+    
+
+  
+
+    
+
+    
+      
+        
+      
+    
+      
+        
+      
+    
+
+    
+
+  
+
+    
+
+    
+
+    
+
+  
+
+    
+
+    
+
+    
+
+  
+
+    
+
+    
+
+    
+
+  
+
+    
+
+    
+
+    
+
+  
+
+    
+
+    
+
+    
+
+  
+
+    
+
+    
+
+    
+
+  
+
+    
+
+    
+
+    
+
+  
+
+    
+
+    
+
+    
+
+  
+
+    
+
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+
+    
+
+  
+
+    
+
+    
+      
+        
+      
+    
+      
+        
+      
+    
+
+    
+
+  
+
+    
+
+    
+      
+        
+          
+        
+      
+    
+      
+        
+      
+    
+
+    
+      <p>
+        <a href="/e2e-tests">Improving end to end tests reliability</a>
+      </p>
+      
+      
+    
+
+  
+
+    
+
+    
+      
+        
+      
+    
+
+    
+
+  
+
+    
+
+    
+      
+        
+          
+        
+      
+    
+      
+        
+      
+    
+
+    
+      <p>
+        <a href="/react-conf-2018">React Conf 2018 Recap</a>
+      </p>
+      
+      
+    
+
+  
+
+    
+
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+
+    
+
+  
+
+    
+
+    
+      
+        
+      
+    
+
+    
+
+  
+
+    
+
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+
+    
+
+  
+
+    
+
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+
+    
+
+  
+
+    
+
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+
+    
+
+  
+
+    
+
+    
+      
+        
+      
+    
+
+    
+
+  
+
+    
+
+    
+      
+        
+          
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+
+    
+      <p>
+        <a href="/react-and-javascript-in-5-min">React-flavored JavaScript in 5 minutes</a>
+      </p>
+      
+      
+    
+
+  
+
+    
+
+    
+
+    
+
+  
+
+    
+
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+
+    
+
+  
+
+    
+
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+
+    
+
+  
+
+    
+
+    
+      
+    
+
+    
+
+  
+
+    
+
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+
+    
+
+  
+
+    
+
+    
+      
+        
+          
+        
+      
+    
+
+    
+      <p>
+        <a href="/test-plan">Test Plan</a>
+      </p>
+      
+      
+        
+
+
+
+  <div class="about">
+  <div class="about_inner">
+    <p>Hello! This text lives here to convince you to subscribe. If you are reading this, consider clicking that subscribe button for more details.</p>
+    <p>I write about programming, software design and side projects <a style="margin-left: 5px" class="btn-subscribe" href="/subscribe/" target="_blank"><svg viewBox="0 0 800 800"><path d="M493 652H392c0-134-111-244-244-244V307c189 0 345 156 345 345zm71 0c0-228-188-416-416-416V132c285 0 520 235 520 520z"/><circle cx="219" cy="581" r="71"/></svg> Subscribe</a></p>
+  </div>
+</div>
+
+</article>
+
+    <script>
+      window.GoogleAnalyticsObject = 'ga';
+      window.ga = window.ga || function() {
+        (window.ga.q = window.ga.q || []).push(arguments);
+      };
+      window.ga.l = Date.now();
+
+      ga('create', 'UA-96545608-1', 'auto');
+      ga(function(tracker) {
+        tracker.set('sendHitTask', function(model) {
+          var xhr = new XMLHttpRequest();
+          xhr.open('GET', 'https://curiosity-seven.vercel.app/api/ev?' + model.get('hitPayload'), true);
+          xhr.send();
+        });
+      });
+      ga('send', 'pageview');
+    </script>
+    <script async defer src="https://curiosity-seven.vercel.app/api/leet" async></script>
+  </body>
+</html>

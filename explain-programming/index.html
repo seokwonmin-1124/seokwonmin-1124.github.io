@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=640" />
+
+    <title>Reconsidering the way I explain programming / frantic.im</title>
+    <meta name="author" content="Alex Kotliarskyi">
+    <meta name="description" content="Successful communication is so much about understanding the context and the people on the receiving end">
+
+    <link rel="canonical" href="https://frantic.im/explain-programming">
+    <link rel="alternate" type="application/rss+xml" title="frantic.im" href="https://frantic.im/feed.xml">
+
+    <meta property="og:title" content="Reconsidering the way I explain programming">
+    <meta property="og:image" content="https://frantic.im/assets/explain-programming/recursion-2.png">
+    <meta name="og:description" content="Successful communication is so much about understanding the context and the people on the receiving end">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@alex_frantic">
+    <meta name="twitter:creator" content="@alex_frantic">
+    <meta name="twitter:title" content="Reconsidering the way I explain programming">
+    <meta name="twitter:description" content="Successful communication is so much about understanding the context and the people on the receiving end">
+    <meta name="twitter:image" content="https://frantic.im/assets/explain-programming/recursion-2.png">
+
+    <link id="favicon" rel="icon" type="image/png" href="/favicon.png">
+    <script>
+      if ('ethereum' in window) {
+        document.getElementById('favicon').href = '/assets/favicon-hex.png';
+      }
+    </script>
+
+    <style type="text/css" media="screen">
+      * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@font-face { font-family: 'body';                     src: url('/fonts/IBMPlexSans-Text.woff') format('woff'); }
+@font-face { font-family: 'body'; font-style: italic; src: url('/fonts/IBMPlexSans-TextItalic.woff') format('woff'); }
+@font-face { font-family: 'body'; font-weight: 800;   src: url('/fonts/IBMPlexSans-Bold.woff') format('woff'); }
+
+@font-face { font-family: 'mono';                     src: url('/fonts/IBMPlexMono-Text-Latin1.woff') format('woff'); }
+
+body { font: 18px/28px body, sans-serif; }
+pre, code { font-family: mono, monospace; }
+
+body {
+  background-color: #FFF;
+  color: #000;
+  -webkit-font-feature-settings: "kern" 1,"liga" 1,"calt" 1;
+  -moz-font-feature-settings: "kern" 1,"liga" 1,"calt" 1;
+  font-feature-settings: "kern" 1,"liga" 1,"calt" 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  margin: 50px auto;
+}
+.page { width: 600px; margin: 0 auto; padding: 0 0 0 2px; }
+.page_wide { width: 810px; }
+
+.menu { width: 544px; margin: 0 auto 0; padding: 0 0 50px 0; vertical-align: top; }
+.menu > li { list-style: none; display: inline-block; margin: 0 1.5em 0 0; vertical-align: top; }
+.menu__item, a.menu__item { color: #00000050; border-color: transparent; display: inline-block; }
+.menu__item_selected,
+a.menu__item_selected,
+a.menu__item:hover { color: #000; border-bottom: 2px solid #000; }
+.menu__item_inside, a.menu__item_inside { border-bottom: 2px solid #00000030; }
+
+article { width: 544px; margin: 15px auto; }
+
+a { color: inherit; text-decoration: none; border-bottom: 2px solid #00000030; }
+a:hover { border-color: currentColor; }
+p, blockquote { margin: 15px 0; }
+h1 + p + blockquote { margin-bottom: 30px; margin-right: 1em; }
+blockquote { padding-left: 1em; color: #00000090; }
+blockquote::before {content: "> "; float: left; margin: 0 0 0 -1em; }
+
+.quote-author { text-align: right; font-size: 15px; }
+strong { font-weight: 600; }
+h1, h2 { margin: 2.5em 0 0.5em; }
+h1 { font-size: 1.7em; }
+h2 { font-size: 1.4em; }
+.title { font-size: 2.5em; line-height: 50px; margin: 1.5em 0 0.75em 0; }
+
+p > img, .fig, figure { margin: 2em 0; }
+img { max-width: 100%; }
+
+.fig, figure { text-align: center; font-size: 12px; line-height: 20px; font-style: italic; width: 600px; margin-left: -28px; margin-right: -28px; }
+.fig img, figure > img, figure > video, figure > a > img { margin: 0 auto 1em; display: block; border-radius: 3px; }
+figure > video { max-width: 100%; }
+.label { text-align: center; font-size: 12px; font-style: italic; margin: -1em 0 1em 0; }
+
+code { font-style: normal; background: #00000010; padding: 2px 6px; border-radius: 4px; font-size: 17px; white-space: nowrap; }
+pre { font-size: 16px;
+      background: #00000010;
+      padding: 16px 30px 14px;
+      margin: 1em -30px;
+      border-radius: 8px;
+      white-space: pre;
+      word-wrap: break-word;
+      font-style: normal;
+      overflow-x: auto; }
+pre > code { background: none; padding: 0; font-size: inherit; white-space: unset; }
+
+ul { padding: 0 0 0 1em; list-style-type: square; }
+ul > li, ol > li { margin: 0.5em 0; }
+
+sup, sub, .note-ref, .note-number, .footnote { vertical-align: baseline; position: relative; font-size: .7em; line-height: 1; }
+sup, .note-ref, .note-number, .footnote { bottom: 1.4ex; }
+sub { top: .5ex; }
+
+.about { margin: 60px 0;}
+.about_photo { float: left; width: 100px; height: 160px; margin-left: -150px; margin-top: -10px; background: url("/photo.png"); background-size: 200px; }
+.about_photo:hover { background-position: 100%; }
+.about_inner { font-size: 16px; line-height: 24px; border: 2px solid #00000030; border-radius: 4px; padding: 10px 20px; margin: -12px -22px; }
+.about_inner > p { margin: 0; }
+.about_inner > p:not(:last-child) { margin-bottom: 8px; }
+.btn-subscribe { line-height: 20px; text-decoration: none; background: #00000015; border: none; font-size: 12px; padding: 0px 7px; display: inline-block; border-radius: 4px; position: relative; top: -1px; }
+.btn-subscribe:hover { background: #00000030; }
+.btn-subscribe > svg { width: 21px; height: 21px; vertical-align: bottom; margin: 0 -2px 0 -5px; }
+
+.footnote { margin: 0 5px;  }
+.footnotes-br { width: 100px; height: 2px; background: #000000; margin-top: 5em; }
+.footnotes, .footnotes_alt { padding-left: 1em;  }
+.footnotes_alt > li > .dagger { margin-left: -13px; }
+.footnotes_alt { list-style: none; } 
+
+.notes { font-size: 0.8em; }
+.note-number { margin-left: -1em; }
+
+.date { color: #00000090; font-size: 14px; margin-left: 4px; }
+
+footer { color: #00000090; }
+footer { font-size: 16px; margin-bottom: 5em; }
+footer > .separator { margin: 0 4px; }
+footer > a { margin-right: 5px; }
+footer > a:hover { color: #000; }
+
+/* syntax */
+.highlight .kd, .highlight .k {font-weight: bold; }
+.highlight .mi { color: blue; }
+.highlight .cm { color: grey; }
+
+.hljs-built_in, .hljs-keyword {font-weight: bold; }
+.hljs-string, hljs-number { color: blue; }
+.hljs-comment { color: grey; }
+      
+    </style>
+  </head>
+
+  <body>
+    <ul class="menu">
+  
+  <li>
+    <a class="menu__item " style="" href="/blog/">
+      Blog
+    </a>
+  </li>
+  
+  <li>
+    <a class="menu__item " style="" href="/talks/">
+      Talks
+    </a>
+  </li>
+  
+  <li>
+    <a class="menu__item " style="" href="/projects/">
+      Projects
+    </a>
+  </li>
+  
+  <li>
+    <a class="menu__item " style="" href="/about/">
+      About
+    </a>
+  </li>
+  
+</ul>
+
+
+<article>
+  <header>
+    
+    <h1 class="title">Reconsidering the way I explain programming</h1>
+  </header>
+  <p>“Do you know a recipe for a recursive salad?” - I asked. “It consists of tomatoes, olives and a recursive salad”.</p>
+<p>My joke falls flat. Michael’s eyes confused and waiting for the explanation. I regroup and try a different strategy - sketching:</p>
+<p><img src="/assets/explain-programming/recursion-1.png" alt="" /></p>
+<p><small>One of my failed attempts at explaining recursion</small></p>
+<p>—</p>
+<p>I’ve explained a lot of programming concepts to different people. From high school students who are just getting started, to experienced engineers who are quickly diving into a new programming language.</p>
+<p>I used to take a lot of pride in the clever explanations I used to come up with. “Your UI is just a function of state”, “the closure hugs your variables in scope”, “Prolog function arguments can be in or out”. I also loved the visuals, formatting code and showing clever animations.</p>
+<p>But many times the people on the receiving end would not be as excited. I thought my delivery was poor.</p>
+<p>Now after so many years, it finally hit me.</p>
+<p>Programming is complex and abstract. Like advanced math, it’s removed from everyday things we deal with normally. What I was describing was only <em>my</em> mental model. Words, pictures and a lot of hand-waving is the way I internalized these abstract concepts.</p>
+<p>Unfortunately, understanding them is not enough to explain them.</p>
+<p>Andy Matuschak recently had a <a href="https://andymatuschak.org/books/">beautiful piece</a> on the status quo format of lectures:</p>
+<blockquote>
+<p>“the lecturer says words describing an idea; the class hears the words and maybe scribbles in a notebook; then the class understands the idea.” In learning sciences, we call this model “transmissionism.” It’s the notion that knowledge can be directly transmitted from teacher to student, like transcribing text from one page onto another. If only! The idea is so thoroughly discredited that “transmissionism” is only used pejoratively, in reference to naive historical teaching practices. Or as an ad-hominem in juicy academic spats.</p>
+</blockquote>
+<p>All my “perfect” models were beautiful only in my head. They did strike a chord with others, sometimes, but it was sheer luck - their intuition was in tune with mine for that particular problem.</p>
+<h1>So what do I do differently now?</h1>
+<h2>Listen very carefully</h2>
+<p>First, I try to listen very carefully to their question. If they are not talking much I’ll ask questions and keep listening. I’ll keep notes on how they explain themselves:</p>
+<ol>
+<li>What names do they use to refer to abstract concepts? I’ll try to use the same.</li>
+<li>What kind of <a href="https://www.nlpworld.co.uk/nlp-glossary/m/modalities/">modality</a> do they operate in? Do they “see” things or “listen” to them?</li>
+<li>How deep do they need to go? Just fix something and move on, or trying to understand it on a more fundamental level?</li>
+</ol>
+<h2>Operate within their mental model</h2>
+<p>Second, I resist the urge to explain it exactly how I understand it. I try to accept their mental model of the world, even if I believe it’s not super accurate. As long as it’s not hurting their understanding, I’m willing to skip over non-essential bits.</p>
+<p>I also adopt their language and use the same names in my examples.</p>
+<h2>Let them explore</h2>
+<p>If the environment allows for it, I’ll encourage them to use the debugger, logs or experiment with the code. For this to work, sometimes I need to reduce the problem space to a much smaller one.</p>
+<p>They key is to let them poke the real world (in this case, the way the compiler or the programming language runtime works) and tune their own model. The goal is to help them develop their own intuition, instead of conveying my own.</p>
+<p>This can be generalized: successful communication is so much about understanding the context and the people on the receiving end.</p>
+<p>—</p>
+<p>Back to Michael. I showed him the IntelliJ debugger and asked to trace a very simple recursive program he wrote.</p>
+<p>“So it’s like the staircase!”, he exclaimed. “Every time we go in is like taking a step, and then we return all the way down”. Well, I guess <em>it is</em> kind of like staircase… I never thought about recursion this way myself. Now I think I can explain tail call optimization via an escalator analogy.</p>
+<p><img src="/assets/explain-programming/recursion-2.png" alt="" />
+<small>This is not the model I had in my mind, but I’ll definitely use it in the future</small></p>
+
+  <footer>
+    <time datetime="2020-03-12T12:00:00+00:00">Mar 12, 2020</time>
+  </footer>
+  
+
+
+
+
+
+
+  <div class="about">
+  <div class="about_inner">
+    <p>Hello! This text lives here to convince you to subscribe. If you are reading this, consider clicking that subscribe button for more details.</p>
+    <p>I write about programming, software design and side projects <a style="margin-left: 5px" class="btn-subscribe" href="/subscribe/" target="_blank"><svg viewBox="0 0 800 800"><path d="M493 652H392c0-134-111-244-244-244V307c189 0 345 156 345 345zm71 0c0-228-188-416-416-416V132c285 0 520 235 520 520z"/><circle cx="219" cy="581" r="71"/></svg> Subscribe</a></p>
+  </div>
+</div>
+
+</article>
+
+    <script>
+      window.GoogleAnalyticsObject = 'ga';
+      window.ga = window.ga || function() {
+        (window.ga.q = window.ga.q || []).push(arguments);
+      };
+      window.ga.l = Date.now();
+
+      ga('create', 'UA-96545608-1', 'auto');
+      ga(function(tracker) {
+        tracker.set('sendHitTask', function(model) {
+          var xhr = new XMLHttpRequest();
+          xhr.open('GET', 'https://curiosity-seven.vercel.app/api/ev?' + model.get('hitPayload'), true);
+          xhr.send();
+        });
+      });
+      ga('send', 'pageview');
+    </script>
+    <script async defer src="https://curiosity-seven.vercel.app/api/leet" async></script>
+  </body>
+</html>
