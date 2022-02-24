@@ -1,56 +1,21 @@
-@font-face {
-    font-family: 'bifur';
-    src: url('/src/index/fonts/BIFUR___.woff') format(woff);
-    font-weight: normal;
-    font-style: normal;
+* {
+    font-family: sans-serif;
 }
 
-html {
-    scroll-behavior: smooth;
+.content {
+    text-align: center;
+    margin-top: 45vh;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    height: 10000px;
-    -ms-overflow-style: none;
+.links > a {
+    margin-left: 10px;
+    margin-bottom: 4px;
+    font-size: 14px;
+    border: none;
+    text-decoration: none;
+    color: #000;
 }
 
-::-webkit-scrollbar {
-     display: none; 
-}
-
-article {
-    height: calc(100vh - 98px);
-    margin-top: 90px;
-    margin-left: 140px;
-    margin-right: 140px;
-}
-
-.title {
-    font-family: 'bifur';
-    color: #396EFF;
-    font-size: 100px;
-    margin: 0;
-    top: 50%;
-    transform: translateY(50%);
-}
-
-.goNextPage {
-    width: 60px;
-    margin-top: 30%;
-    margin-left: 50%;
-    color: #CBCBCB;
-    transition: 0.5s;
-}
-
-.goNextPage:hover {
-    color: #000000;
-    transform: translateY(-5px);
-}
-
-.dev_testimg {
-    width: 50%;
-    transform: translateY(70%);
-    object-fit: cover;
+.links > a:hover {
+    text-decoration: underline;
 }

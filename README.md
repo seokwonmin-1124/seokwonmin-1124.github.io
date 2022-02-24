@@ -1,5 +1,39 @@
 # seokwonmin-1124.github.io
 웹 프로젝트를 한곳에 모아 놓은 사이트 입니다.
-> main : https://lesh.monster (개발중) <br>
-> todolist : https://lesh.monster/todolist (개발완료) <br>
-> leditor :  https://lesh.monster/leditor (개발완료) <br>
+.
+├── README.md
+├── index.html
+├── project
+│   ├── leditor
+│   │   ├── index.html
+│   │   └── leditor.js
+│   ├── project_list
+│   │   └── index.html
+│   ├── src
+│   │   ├── index
+│   │   │   ├── fonts
+│   │   │   │   ├── BIFUR___.TTF
+│   │   │   │   └── BIFUR___.woff
+│   │   │   └── img
+│   │   │       ├── png
+│   │   │       │   └── develping.png
+│   │   │       └── svg
+│   │   │           └── chevron-compact-down.svg
+│   │   ├── logo
+│   │   │   └── logo_L.png
+│   │   ├── project_list
+│   │   │   ├── ledi.png
+│   │   │   └── todo.png
+│   │   └── todolist
+│   │       ├── fonts
+│   │       └── img
+│   ├── todolist
+│   │   ├── index.html
+│   │   ├── test.css
+│   │   └── test.js
+│   └── wasmain
+│       ├── index.html
+│       ├── script.js
+│       └── style.css
+└── style.css
+
