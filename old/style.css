@@ -1,0 +1,21 @@
+* {
+    font-family: sans-serif;
+}
+
+.content {
+    text-align: center;
+    margin-top: 45vh;
+}
+
+.links > a {
+    margin-left: 10px;
+    margin-bottom: 4px;
+    font-size: 14px;
+    border: none;
+    text-decoration: none;
+    color: #000;
+}
+
+.links > a:hover {
+    text-decoration: underline;
+}

@@ -1,21 +1,102 @@
 * {
-    font-family: sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
-.content {
-    text-align: center;
-    margin-top: 45vh;
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
 }
 
-.links > a {
-    margin-left: 10px;
-    margin-bottom: 4px;
-    font-size: 14px;
-    border: none;
+.global-width {
+	max-width: 620px;
+	margin: 0 auto;
+	padding: 1rem;
+}
+
+.page-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: auto;
+}
+
+.title-hr {
+    margin-bottom: 2rem;
+}
+
+.content-title>.title-a {
+    color: #000000;
     text-decoration: none;
-    color: #000;
+    border-bottom: 1px solid #00000000;
+    cursor: pointer;
+    transition: 0.5s;
 }
 
-.links > a:hover {
-    text-decoration: underline;
+.content-title>.title-a:hover {
+    color: #000000;
+    border-bottom: 2px solid #000000;
+}
+
+.setting {
+    font-size: 1.5rem;
+    float: right;
+    cursor: pointer;
+}
+
+.page-location {
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.content-body {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* 라인수 */
+    -webkit-box-orient: vertical;
+    word-wrap:break-word;
+    line-height: auto;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+footer>hr {
+    max-width: 620px;
+    width: auto;
+}
+
+.wrap {
+    position: relative;
+    min-height: calc(100% - 140px);
+    padding-bottom: 140px;
+  }
+
+footer {
+    position: absolute;
+    max-width: 620px;
+	margin: 0 auto;
+	padding: 1rem;
+    width: 100%;
+    height: 140px;
+    bottom: 0;
+    transform: translateX(-50%);
+    left: 50%;
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.footer-hr {
+    margin: 1rem 0;
+}
+
+.github {
+    cursor: pointer;
+}
+
+.blog {
+    cursor: pointer;
+}
+
+.other {
+    margin-bottom: 0.3rem;
 }
