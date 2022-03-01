@@ -49,18 +49,6 @@ html, body {
     color: rgba(0, 0, 0, 0.6);
 }
 
-.content-body {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 4; /* 라인수 */
-    -webkit-box-orient: vertical;
-    word-wrap:break-word;
-    line-height: auto;
-    height: auto;
-    margin-bottom: 2rem;
-}
-
 footer>hr {
     max-width: 620px;
     width: auto;
