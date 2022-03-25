@@ -5,10 +5,30 @@
     font-style: normal;
 }
 
-* {
-    font-family: 'GangwonEdu_OTFLightA';
+@font-face {
+    font-family: 'GangwonEdu_OTFBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
+/* 모바일에서 폰트가 조금 이쁘지 않길래 볼드처리해봄 */
+@media only screen and (max-width: 654px) {
+    * {
+        font-family: 'GangwonEdu_OTFLightA';
+    }
+
+    .title-a, h1 {
+        font-family: 'GangwonEdu_OTFBoldA';
+    }
+
+}
+
+@media only screen and (min-width: 654px) {
+    * {
+        font-family: 'GangwonEdu_OTFLightA';
+    }
+}
 html, body {
     height: calc(100% - 2rem);
     padding: 0;
