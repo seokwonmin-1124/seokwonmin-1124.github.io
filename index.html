@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" class="global-width">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,59 +9,81 @@
     <link rel="stylesheet" href="style.css">
     <title>LESH | BLOG</title>
 </head>
-<body>
-<div class="wrap">
-    <div>
-        <header class="page-header">
-            <h1 class="page-title">LESH</h1>
-                <p class="page-location">
-                    <span>LESH's Blog, Lifelog</span>
-                </p>
-        </header>
-        <hr class="title-hr">
-        <section class="page-preview">
-            <div class="page-content">
-                <div class="content-each">
-                    <h1 class="content-title">
-                        <a onclick="location.href='https://seokwonmin-1124.github.io/post/첫-글(2022-03-02).html'" class="title-a">[공지] 블로그를 시작하며</a>
-                    </h1>
-                    <p class="content-body">
-                        <span>안녕하세요 레쉬입니다 제가 웹 개발을 시작한 이유인 개인 블로그, 드디어 완성했습니다. 바닥부터 html,css를 이용해 디자인을 했고 백엔드 부분은 아직 미숙해 프레임워크 없이 파이썬으로 html파일을 찍어내는 방식으로 임시 구현했습니다. 네이버 블로그에서 완전히 개인 블로그로 옮길 예정은 아니지만 주로 사용하는 블로그를 서서히 옮겨갈 예정입니다 이렇게 블로그를 오픈하게 되었고 블로그는 상시 개발 중 입니다 언제든지 피드백은 환영합니다 방문해 주셔서 감사합니다 Discord : LESH#3201 Write with leditor</span>
-                    </p>
-                </div>
-                <div class="content-each">
-                    <h1 class="content-title">
-                        <a onclick="location.href='https://seokwonmin-1124.github.io/post/자바스크립트문법-정리(2022-03-15).html'" class="title-a">자바스크립트 기초 문법 정리글(gist)</a>
-                    </h1>
-                    <p class="content-body">
-                        <span>// 자바스크립트 기초 정리입니다. // 변수 선언 var sum consle.log("sum") // -> undefined // 변수 선언은 반드시 문장 위에 // var, const(값 고정), let(값 변경 가능) 으로 변수를 선언할 수 있음 // 자바스크립트 데이터 타입 // 원시타입 : 숫자, 문자, 논리값(true/false), 특수한 값(null, undefined), 심발 //객체타입 : 객체, 배열, 함수 // 문장 내에서 따옴표 사용할땐 // 'I\'m going to the market' -> 사용하고자 하는 부분 앞에 백슬래쉬를 붙여준다 // 유니코드 : \u{1f4d6} -> \u{유니코드 코드값} // 템플릿 리터럴 : `문자열`</span>
-                    </p>
-                </div>
-                <div class="content-each">
-                    <h1 class="content-title">
-                        <a onclick="location.href='https://seokwonmin-1124.github.io//post/프로필-페이지-설명글.html'" class="title-a">프로필 페이지 오픈!</a>
-                    </h1>
-                    <p class="content-body">
-                        <span>안녕하세요 레쉬입니다. 오늘은 아주 심플한 개인 프로필 페이지를 만들어 봤습니다. (사진) 곧 커스텀이 가능하게 만들 예정이니 많은 사용 부탁드립니다! 링크: https://lesh.monster/profile</span>
-                    </p>
-                </div>
-            </div>
-        </section>
-    <footer>
-        <hr class="footer-hr">
-        <p class="footer-text">
-            <div class="other">
-            <span onclick="location.href=''" class="blog">Blog</span>
-            <span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
-            <span onclick="location.href='https://github.com/seokwonmin-1124'" class="github">Github</span><br>                
-            </div>
-            <span>저자: LESH</span><br>
-            <span>이메일: seokwonmin@naver.com</span><br>
-            <span>Copyright 2022. LESH all rights reserved.</span>
-        </p>
-    </footer>
-    </div>        
-</div>
 
+<body>
+    <div class="wrap">
+        <div>
+            <header class="page-header">
+                <h1 class="page-title">LESH</h1>
+                <p class="page-location">
+                    <span>
+                        <span>LESH's Blog, Lifelog</span>
+                        <span>
+                            <input type="button" value="라이트 모드" onclick="daynight();" class="daynight">
+                            <input type="button" value="다크 모드" onclick="nightday();" class="nightday"
+                                style="display: none;">
+
+                        </span>
+                    </span>
+                </p>
+            </header>
+            <hr class="title-hr">
+            <section class="page-preview">
+                <div class="page-content">
+                    <div class="content-each">
+                        <h1 class="content-title">
+                            <a onclick="location.href='https://seokwonmin-1124.github.io/post/첫-글(2022-03-02).html'"
+                                class="title-a">[공지] 블로그를 시작하며</a>
+                        </h1>
+                        <p class="content-body">
+                            <span>안녕하세요 레쉬입니다 제가 웹 개발을 시작한 이유인 개인 블로그, 드디어 완성했습니다. 바닥부터 html,css를 이용해 디자인을 했고 백엔드 부분은 아직
+                                미숙해 프레임워크 없이 파이썬으로 html파일을 찍어내는 방식으로 임시 구현했습니다. 네이버 블로그에서 완전히 개인 블로그로 옮길 예정은 아니지만 주로
+                                사용하는 블로그를 서서히 옮겨갈 예정입니다 이렇게 블로그를 오픈하게 되었고 블로그는 상시 개발 중 입니다 언제든지 피드백은 환영합니다 방문해 주셔서 감사합니다
+                                Discord : LESH#3201 Write with leditor</span>
+                        </p>
+                    </div>
+                    <div class="content-each">
+                        <h1 class="content-title">
+                            <a onclick="location.href='https://seokwonmin-1124.github.io/post/자바스크립트문법-정리(2022-03-15).html'"
+                                class="title-a">자바스크립트 기초 문법 정리글(gist)</a>
+                        </h1>
+                        <p class="content-body">
+                            <span>// 자바스크립트 기초 정리입니다. // 변수 선언 var sum consle.log("sum") // -> undefined // 변수 선언은 반드시
+                                문장 위에 // var, const(값 고정), let(값 변경 가능) 으로 변수를 선언할 수 있음 // 자바스크립트 데이터 타입 // 원시타입 : 숫자,
+                                문자, 논리값(true/false), 특수한 값(null, undefined), 심발 //객체타입 : 객체, 배열, 함수 // 문장 내에서 따옴표 사용할땐
+                                // 'I\'m going to the market' -> 사용하고자 하는 부분 앞에 백슬래쉬를 붙여준다 // 유니코드 : \u{1f4d6} ->
+                                \u{유니코드 코드값} // 템플릿 리터럴 : `문자열`</span>
+                        </p>
+                    </div>
+                    <div class="content-each">
+                        <h1 class="content-title">
+                            <a onclick="location.href='https://seokwonmin-1124.github.io//post/프로필-페이지-설명글.html'"
+                                class="title-a">프로필 페이지 오픈!</a>
+                        </h1>
+                        <p class="content-body">
+                            <span>안녕하세요 레쉬입니다. 오늘은 아주 심플한 개인 프로필 페이지를 만들어 봤습니다. (사진) 곧 커스텀이 가능하게 만들 예정이니 많은 사용 부탁드립니다!
+                                링크: https://lesh.monster/profile</span>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <hr class="footer-hr">
+                <p class="footer-text">
+                <div class="other">
+                    <span onclick="location.href=''" class="blog">Blog</span>
+                    <span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
+                    <span onclick="location.href='https://github.com/seokwonmin-1124'" class="github">Github</span><br>
+                </div>
+                <span>저자: LESH</span><br>
+                <span>이메일: seokwonmin@naver.com</span><br>
+                <span>Copyright 2022. LESH all rights reserved.</span>
+                </p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
 </body>
+
 </html>

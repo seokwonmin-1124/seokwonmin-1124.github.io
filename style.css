@@ -18,7 +18,8 @@
         font-family: 'GangwonEdu_OTFLightA';
     }
 
-    .title-a, h1 {
+    .title-a,
+    h1 {
         font-family: 'GangwonEdu_OTFBoldA';
     }
 
@@ -30,16 +31,17 @@
     }
 }
 
-html, body {
+html,
+body {
     height: calc(100% - 2rem);
     padding: 0;
     margin: 0;
 }
 
 .global-width {
-	max-width: 620px;
-	margin: 0 auto;
-	padding: 1rem;
+    max-width: 620px;
+    margin: 0 auto;
+    padding: 1rem;
 }
 
 .page-title {
@@ -53,7 +55,6 @@ html, body {
 }
 
 .content-title>.title-a {
-    color: #000000;
     text-decoration: none;
     border-bottom: 1px solid #00000000;
     cursor: pointer;
@@ -61,7 +62,6 @@ html, body {
 }
 
 .content-title>.title-a:hover {
-    color: #000000;
     border-bottom: 2px solid #000000;
 }
 
@@ -81,9 +81,10 @@ html, body {
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 4; /* 라인수 */
+    -webkit-line-clamp: 4;
+    /* 라인수 */
     -webkit-box-orient: vertical;
-    word-wrap:break-word;
+    word-wrap: break-word;
     line-height: auto;
     height: auto;
     margin-bottom: 2rem;
@@ -103,8 +104,8 @@ footer>hr {
 footer {
     position: absolute;
     max-width: 620px;
-	margin: 0 auto;
-	padding: 1rem;
+    margin: 0 auto;
+    padding: 1rem;
     padding-bottom: 0%;
     width: 100%;
     height: 140px;
@@ -129,4 +130,15 @@ footer {
 
 .other {
     margin-bottom: 0.3rem;
+}
+
+.daynight,
+.nightday {
+    display: inline-box;
+    float: right;
+    border: none;
+    background: none;
+    font-size: 1rem;
+    /* 볼드 */
+    font-weight: bold;
 }

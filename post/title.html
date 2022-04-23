@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" class="global-width">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,40 +9,55 @@
     <link rel="stylesheet" href="src/style.css">
     <title>LESH | BLOG</title>
 </head>
+
 <body>
-<div class="wrap">
-    <div>
-        <header class="page-header">
-            <h1 class="content-title">TITLE</h1>
+    <div class="wrap">
+        <div>
+            <header class="page-header">
+                <h1 class="content-title">TITLE</h1>
                 <p class="page-information">
                     <span>info</span>
+                    <span>
+                        <input type="button" value="라이트 모드" onclick="daynight();" class="daynight">
+                        <input type="button" value="다크 모드" onclick="nightday();" class="nightday"
+                            style="display: none;">
+
+                    </span>
                 </p>
-        </header>
-        <hr class="title-hr">
-        <section class="page-preview">
-            <div class="page-content">
-                <div class="content-each">
-                    <p class="content-body">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    </p>
-                </div> 
-            </div>
-        </section>
-    <footer>
-        <hr class="footer-hr">
-        <p class="footer-text">
-            <div class="other">
-            <span onclick="location.href=''" class="blog">Blog</span>
-            <span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
-            <span onclick="location.href='https://github.com/seokwonmin-1124'" class="github">Github</span><br>                
-            </div>
-            <span>저자: LESH</span><br>
-            <span>이메일: seokwonmin@naver.com</span><br>
-            <span>Copyright 2022. LESH all rights reserved.</span>
-        </p>
-    </footer>
-    </div>        
-</div>
+            </header>
+            <hr class="title-hr">
+            <section class="page-preview">
+                <div class="page-content">
+                    <div class="content-each">
+                        <p class="content-body">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                            passages, and more recently with desktop publishing software like Aldus PageMaker including
+                            versions of Lorem Ipsum.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <hr class="footer-hr">
+                <p class="footer-text">
+                <div class="other">
+                    <span onclick="location.href=''" class="blog">Blog</span>
+                    <span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
+                    <span onclick="location.href='https://github.com/seokwonmin-1124'" class="github">Github</span><br>
+                </div>
+                <span>저자: LESH</span><br>
+                <span>이메일: seokwonmin@naver.com</span><br>
+                <span>Copyright 2022. LESH all rights reserved.</span>
+                </p>
+            </footer>
+        </div>
+    </div>
+    <script src="src/index.js"></script>
 
 </body>
+
 </html>

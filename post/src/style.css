@@ -18,7 +18,8 @@
         font-family: 'GangwonEdu_OTFLightA';
     }
 
-    .title-a, h1 {
+    .title-a,
+    h1 {
         font-family: 'GangwonEdu_OTFBoldA';
     }
 
@@ -29,16 +30,18 @@
         font-family: 'GangwonEdu_OTFLightA';
     }
 }
-html, body {
+
+html,
+body {
     height: calc(100% - 2rem);
     padding: 0;
     margin: 0;
 }
 
 .global-width {
-	max-width: 620px;
-	margin: 0 auto;
-	padding: 1rem;
+    max-width: 620px;
+    margin: 0 auto;
+    padding: 1rem;
 }
 
 .content-title {
@@ -85,13 +88,13 @@ footer>hr {
     position: relative;
     min-height: calc(100% - 140px);
     padding-bottom: 140px;
-  }
+}
 
 footer {
     position: absolute;
     max-width: 620px;
-	margin: 0 auto;
-	padding: 1rem;
+    margin: 0 auto;
+    padding: 1rem;
     padding-bottom: 0%;
     width: 100%;
     height: 140px;
@@ -116,4 +119,15 @@ footer {
 
 .other {
     margin-bottom: 0.3rem;
+}
+
+.daynight,
+.nightday {
+    display: inline-box;
+    float: right;
+    border: none;
+    background: none;
+    font-size: 1rem;
+    /* 볼드 */
+    font-weight: bold;
 }
