@@ -1,9 +1,9 @@
 function daynight() {
     document.querySelector('body').style.backgroundColor = '#121212'
-    document.querySelector('body').style.color = '#bbb'
-    document.querySelector('footer').style.color = '#bbb'
+    document.querySelector('body').style.color = '#dbdbdb'
+    document.querySelector('footer').style.color = '#dbdbdb'
     document.querySelector('.nightday').style.color = '#fff'
-    document.querySelector('.info').style.color = '#bbb'
+    document.querySelector('.info').style.color = '#dbdbdb'
     if (document.querySelector('img') != null) {
         document.querySelector('img').style.opacity = '0.8'
     }
