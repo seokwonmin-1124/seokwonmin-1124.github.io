@@ -15,6 +15,7 @@ function nightday() {
     document.querySelector('body').style.color = '#000000'
     document.querySelector('.nightday').style.color = '#000'
     document.querySelector('.info').style.color = '#00000099'
+    document.querySelector('footer').style.color = '#00000099'
     document.querySelector('body').style.transition = 'all 0.5s'
     document.querySelector('.nightday').style.display = 'none'
     document.querySelector('.daynight').style.display = 'block'
