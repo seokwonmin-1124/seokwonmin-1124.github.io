@@ -113,7 +113,7 @@ footer {
     transform: translateX(-50%);
     left: 50%;
     font-size: 0.8rem;
-    color: rgba(0, 0, 0, 0.5);
+    color: #00000099;
 }
 
 .footer-hr {
