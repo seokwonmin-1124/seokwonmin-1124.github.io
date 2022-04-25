@@ -40,6 +40,12 @@ function nightday() {
     document.querySelector('.nightday').style.display = 'none'
     document.querySelector('.daynight').style.display = 'block'
     document.querySelector('style').innerHTML += "";
+    document.querySelector('style').remove();
+    const createStyle = document.createElement('style');
+    createStyle.setAttribute('type', 'text/css');
+    createStyle.textContent = `/* clear */`;
+    // body 요소에 생성한 style 태그 추가
+    document.querySelector('body').appendChild(createStyle);
     localStorage.clear();
     localStorage.setItem("theme", "day");
 }
